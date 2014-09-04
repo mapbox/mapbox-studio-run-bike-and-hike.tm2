@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -122.4077260494232
-  - 37.78726741375342
-  - 16
+  - 19.550170898437496
+  - 47.79286140021344
+  - 8
 description: A map for running, biking, and hiking
 format: "png8:m=h:c=128"
 interactivity_layer: ''

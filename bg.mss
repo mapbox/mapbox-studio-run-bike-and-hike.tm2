@@ -61,46 +61,48 @@ Map {
   // Countries
   ::lev2outline[admin_level=2][zoom>=2] {
     line-join: round;
-    line-width: 1.4 + 1;
+    line-width: 1 + 1;
     line-color: #fff;
     [zoom>=5] { line-width: 2 + 1; }
-    [zoom>=6] { line-width: 3 + 1; }
-    [zoom>=8] { line-width: 4 + 2; }
+    [zoom>=6] { line-width: 2.5 + 1; }
+    [zoom>=8] { line-width: 3 + 2; }
     [disputed=1] { line-dasharray: 4,4; }
     }
   ::lev2[admin_level=2] {
     line-join: round;
-    line-width: 1.4;
+    line-cap: round;
+    line-width: 1;
     line-color: @admin_2;
     [zoom>=4] { line-color:@admin_2_hi; }
     [zoom>=5] { line-width: 2; }
-    [zoom>=6] { line-width: 3; }
-    [zoom>=8] { line-width: 4; }
-    [zoom>=9] { line-color: @admin_2_hi2; }
+    [zoom>=6] { line-width: 2.5; line-color: @admin_2_hi2; }
+    [zoom>=8] { line-width: 3; }
+    //[zoom>=9] { line-color: @admin_2_hi2; }
     [disputed=1] { line-dasharray: 4,4; }
   }
   // States / Provices / Subregions
    ::lev3outline[admin_level>=3] {
     line-color: @land;
     line-join: round;
-    line-width: 0.4 + 1;
+    line-cap: round;
+    line-width: 0.2 + 1;
     //line-dasharray: 10,3,3,3;
-    [zoom=4] { line-width: 0.6 + 1; }
-    [zoom=5] { line-width: 0.8 + 1; }
+    [zoom=4] { line-width: 0.4 + 1; }
+    [zoom=5] { line-width: 0.6 + 1; }
     [zoom>=6] { line-width: 1 + 1; }
-    [zoom>=7] { line-width: 2 + 1; }
-    [zoom>=12] { line-width: 3 + 1; }
+    [zoom>=7] { line-width: 1.5 + 1; }
+    [zoom>=12] { line-width: 2 + 1; }
   }
   ::lev3[admin_level>=3] {
     line-color: @admin_3;
-    line-width: 0.4;
+    line-width: 0.2;
     line-dasharray: 10,3,3,3;
-    [zoom=4] { line-width: 0.6; }
-    [zoom=5] { line-width: 0.8; }
+    [zoom=4] { line-width: 0.4; }
+    [zoom=5] { line-width: 0.6; }
     [zoom>=6] { line-width: 1; }
-    [zoom>=7] { line-width: 2; }
+    [zoom>=7] { line-width: 1.5; }
     [zoom>=9] { line-color: @admin_3_hi; }
-    [zoom>=12] { line-width: 3; }
+    [zoom>=12] { line-width: 2; }
   }
 }
 

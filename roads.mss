@@ -105,7 +105,7 @@
     }  
 
    // Casing is same width as path (since they're dashed)
-   [class='path'],[class='footway'],[class='cycleway']{
+   [class='path'][type!='steps'] {
       [zoom<=14] { line-opacity: 0.5; }
       [zoom>=13] { line-width: 0.75; }
       [zoom>=14] { line-width: 1.5; }
@@ -114,7 +114,7 @@
       [zoom>=20] { line-width: 6; }
     }
    // Casing is same width as stairs (since they're dashed) 
-   [class='steps'] {
+   [class='path'][type='steps'] {
     [zoom>=17] { line-width: 6; }
     [zoom>=18] { line-width: 12; } 
     }
@@ -163,14 +163,15 @@
     [class='street_limited'] { line-dasharray: 4,1; }
   
    // When data is updated, these should all be path
-  [class='path'],[class='footway'],[class='cycleway'] {
+  [class='path'][type!='steps'] {
       [zoom>=13] { line-width: 0.75; }
       [zoom>=14] { line-width: 1.25; line-dasharray: 0.5, 1.75;  }
       [zoom>=16] { line-width: 2; line-dasharray: 0.5, 3; }
       [zoom>=18] { line-width: 4; line-dasharray: 1, 5; }
       [zoom>=20] { line-width: 6; line-dasharray: 1, 7; }
+      [type='piste'] { line-color: @piste; }
     }
-  [class='steps'],[type='steps'] {
+  [class='path'][type='steps'] {
     line-cap: butt;
     line-smooth: 1;  
     [zoom>=17] { line-width: 6; line-dasharray: 2, 2; line-smooth: 1;  }

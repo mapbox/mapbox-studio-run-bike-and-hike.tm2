@@ -44,7 +44,6 @@
 @wooded:            mix(@sand,@park, 30);
 @pitch:             @park;
 @sports:            @park;
-@piste: 			lighten(@land,5); // CAN'T FIND
 @hospital:          darken(@land,3);
 @school:            darken(@land,4);
 @industrial:        darken(@land, 5);
@@ -70,6 +69,7 @@
 @rail:              lighten(@gray-3, 2);
 @motorway_fill:     lighten(@land, 4);
 @motorway_case:     darken(@gray-3, 1);
+@piste: 			@glacier;
 
 // Label colors //
 @place_halo: fadeout(@land, 90);
