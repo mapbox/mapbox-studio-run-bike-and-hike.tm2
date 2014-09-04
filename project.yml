@@ -2,7 +2,9 @@ _prefs:
   baselayer: ''
   mapid: nicki.cce9a8a5
   saveCenter: true
-_properties: {}
+_properties: 
+  bridge: 
+    "group-by": layer
 attribution: "<a href='https://www.mapbox.com/about/maps/' target='_blank'>&copy; Mapbox &copy; OpenStreetMap</a> <a class='mapbox-improve-map' href='https://www.mapbox.com/map-feedback/' target='_blank'>Improve this map</a>"
 bounds: 
   - -180
@@ -10,9 +12,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -122.49446868896483
-  - 45.51067773196122
-  - 12
+  - -122.4077260494232
+  - 37.78726741375342
+  - 16
 description: A map for running, biking, and hiking
 format: "png8:m=h:c=128"
 interactivity_layer: ''
