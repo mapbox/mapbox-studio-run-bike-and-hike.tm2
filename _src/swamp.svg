@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 15.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1"
+	 id="svg2" sodipodi:docname="swamp.svg" inkscape:version="0.48.3.1 r9886" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" xmlns:svg="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1/"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="16px" height="16px"
+	 viewBox="0 0 16 16" enable-background="new 0 0 16 16" xml:space="preserve">
+<sodipodi:namedview  id="base" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:pageopacity="0.0" inkscape:cy="-659.58062" inkscape:pageshadow="2" inkscape:zoom="1" inkscape:cx="603.09962" inkscape:document-units="px" inkscape:current-layer="layer1" showgrid="false" inkscape:window-width="1920" inkscape:window-height="1024" inkscape:window-x="0" inkscape:window-y="27" inkscape:window-maximized="1" fit-margin-top="0" showguides="true" fit-margin-left="0" fit-margin-right="0" fit-margin-bottom="0" inkscape:guide-bbox="true" inkscape:snap-bbox="true" inkscape:snap-nodes="false">
+	<inkscape:grid  type="xygrid" id="grid2985" visible="true" empspacing="4" enabled="true" snapvisiblegridlinesonly="true">
+		</inkscape:grid>
+</sodipodi:namedview>
+<rect id="rect8896" x="-8" y="8" fill="#CCCCCC" width="792" height="528"/>
+<rect id="rect7792" y="16" opacity="0.3" fill="#FFFFFF" width="256" height="256"/>
+<rect id="rect8890" y="280" fill="#FFFFFF" width="128" height="128"/>
+<rect id="rect8892" x="136" y="280" fill="#FFFFFF" width="64" height="64"/>
+<rect id="rect8894" x="208" y="280" fill="#FFFFFF" width="32" height="32"/>
+<g opacity="0.3">
+	<rect id="rect8931" x="264" y="16" fill="#FFFFFF" width="512" height="512"/>
+</g>
+<rect id="rect9189" x="208" y="316" fill="#FFFFFF" width="16" height="16"/>
+<rect id="rect9233" x="228" y="316" fill="#FFFFFF" width="12" height="12"/>
+<g id="wetland-17" transform="matrix(2,0,0,2,356,105.63782)" inkscape:label="#g7498">
+	
+		<rect id="rect5222" x="-112.25" y="-38.319" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path5229" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-108.25-38.319l-2.5-2l0.625,2
+		H-108.25z"/>
+	<path id="path5231" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-108.25-38.319l1.25-1
+		l-1.25-2l-1.25,2L-108.25-38.319z"/>
+	<path id="path5233" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-108.25-38.319l2.5-2l-0.625,2
+		H-108.25z"/>
+	
+		<rect id="rect5249" x="-112" y="-26.319" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	<path id="path5269" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-60-28.069l-2-1.524l0.5,1.524
+		H-60z"/>
+	<path id="path5271" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-60-28.069l1-0.762l-1-1.524
+		l-1,1.524L-60-28.069z"/>
+	<path id="path5273" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-60-28.069l2-1.524l-0.5,1.524
+		H-60z"/>
+	
+		<rect id="rect5275" x="-84" y="-28.819" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	
+		<rect id="rect5279" x="-77" y="-1.319" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path5285" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-73.25-1.319l-2.5-2l0.625,2
+		H-73.25z"/>
+	<path id="path5287" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-73.25-1.319l1.25-1l-1.25-2
+		l-1.25,2L-73.25-1.319z"/>
+	<path id="path5289" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-73.25-1.319l2.5-2l-0.625,2
+		H-73.25z"/>
+	
+		<rect id="rect5291" x="-121.183" y="28.197" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.195" height="0.508">
+	</rect>
+	<path id="path5298" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-112.676,28.197l-2.648-2.033
+		l0.662,2.033H-112.676z"/>
+	<path id="path5300" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-112.676,28.197l1.324-1.016
+		l-1.324-2.032L-114,27.181L-112.676,28.197z"/>
+	<path id="path5302" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-112.676,28.197l2.648-2.033
+		l-0.662,2.033H-112.676z"/>
+	
+		<rect id="rect5314" x="-99.5" y="7.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="5.5" height="0.5">
+	</rect>
+	
+		<rect id="rect5356" x="-162.5" y="-17.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	<path id="path5362" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-153.75-17.819l-2.75-2
+		l0.688,2H-153.75z"/>
+	<path id="path5364" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-153.75-17.819l1.375-1
+		l-1.375-2l-1.375,2L-153.75-17.819z"/>
+	<path id="path5366" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-153.75-17.819l2.75-2
+		l-0.688,2H-153.75z"/>
+	
+		<rect id="rect5356-2" x="-98.5" y="-17.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	<path id="path5362-5" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-89.75-17.819l-2.75-2
+		l0.688,2H-89.75z"/>
+	<path id="path5364-0" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-89.75-17.819l1.375-1
+		l-1.375-2l-1.375,2L-89.75-17.819z"/>
+	<path id="path5366-2" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-89.75-17.819l2.75-2
+		l-0.688,2H-89.75z"/>
+	
+		<rect id="rect5368" x="-176" y="-26.319" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5372" x="-133" y="-39.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path5378" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-129.25-39.819l-2.5-2l0.625,2
+		H-129.25z"/>
+	<path id="path5380" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-129.25-39.819l1.25-1
+		l-1.25-2l-1.25,2L-129.25-39.819z"/>
+	<path id="path5382" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-129.25-39.819l2.5-2l-0.625,2
+		H-129.25z"/>
+	
+		<rect id="rect5398" x="-148.75" y="-2.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7.5" height="0.5">
+	</rect>
+	<path id="path5404" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-144.75-2.819l-2.5-2l0.625,2
+		H-144.75z"/>
+	<path id="path5406" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-144.75-2.819l1.25-1l-1.25-2
+		l-1.25,2L-144.75-2.819z"/>
+	<path id="path5408" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-144.75-2.819l2.5-2l-0.625,2
+		H-144.75z"/>
+	
+		<rect id="rect5410" x="-131.874" y="10.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="8.374" height="0.5">
+	</rect>
+	<path id="path5426" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-117-10.069l-2-1.524
+		l0.5,1.524H-117z"/>
+	<path id="path5428" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-117-10.069l1-0.762l-1-1.524
+		l-1,1.524L-117-10.069z"/>
+	<path id="path5430" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-117-10.069l2-1.524
+		l-0.5,1.524H-117z"/>
+	
+		<rect id="rect5432" x="-170.507" y="16.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.194" height="0.508">
+	</rect>
+	<path id="path5438" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-162,16.181l-2.648-2.032
+		l0.662,2.032H-162z"/>
+	<path id="path5440" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-162,16.181l1.324-1.017
+		L-162,13.132l-1.324,2.032L-162,16.181z"/>
+	<path id="path5442" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-162,16.181l2.648-2.032
+		l-0.662,2.032H-162z"/>
+	
+		<rect id="rect5444" x="-176" y="5.681" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5686" x="-178" y="-44.819" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5688" x="-114" y="-44.819" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5690" x="-114" y="19.181" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5692" x="-178" y="19.181" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5710" x="-98.831" y="46.198" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12.194" height="0.508">
+	</rect>
+	<path id="path5716" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-90.324,46.198l-2.648-2.033
+		l0.662,2.033H-90.324z"/>
+	<path id="path5718" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-90.324,46.198L-89,45.181
+		l-1.324-2.032l-1.324,2.032L-90.324,46.198z"/>
+	<path id="path5720" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-90.324,46.198l2.648-2.033
+		l-0.662,2.033H-90.324z"/>
+	
+		<rect id="rect5726" x="-69.25" y="24.181" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path5732" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-65.5,24.181l-2.5-2l0.625,2
+		H-65.5z"/>
+	<path id="path5734" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-65.5,24.181l1.25-1l-1.25-2
+		l-1.25,2L-65.5,24.181z"/>
+	<path id="path5736" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-65.5,24.181l2.5-2l-0.625,2
+		H-65.5z"/>
+	<path id="path5742" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-60,36.181l-1.986-1.524
+		l0.497,1.524H-60z"/>
+	<path id="path5744" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-60,36.181l0.993-0.762
+		L-60,33.894l-0.993,1.524L-60,36.181z"/>
+	<path id="path5746" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-60,36.181l1.986-1.524
+		l-0.497,1.524H-60z"/>
+	
+		<rect id="rect5748" x="-84" y="35.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	
+		<rect id="rect5764" x="-67.75" y="74.198" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12" height="0.483">
+	</rect>
+	<path id="path5770" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-59.25,74.181l-2.75-2l0.688,2
+		H-59.25z"/>
+	<path id="path5772" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-59.25,74.181l1.375-1
+		l-1.375-2l-1.375,2L-59.25,74.181z"/>
+	<path id="path5774" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-59.25,74.181l2.75-2l-0.688,2
+		H-59.25z"/>
+	<path id="path5780" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-53,54.431l-2-1.667l0.5,1.667
+		H-53z"/>
+	<path id="path5782" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-53,54.431l1-0.833l-1-1.667
+		l-1,1.667L-53,54.431z"/>
+	<path id="path5784" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-53,54.431l2-1.667l-0.5,1.667
+		H-53z"/>
+	
+		<rect id="rect5786" x="-106.507" y="80.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.007" height="0.508">
+	</rect>
+	<path id="path5792" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-98.25,80.181l-2.75-2l0.688,2
+		H-98.25z"/>
+	<path id="path5794" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-98.25,80.181l1.375-1
+		l-1.375-2l-1.375,2L-98.25,80.181z"/>
+	<path id="path5796" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-98.25,80.181l2.75-2l-0.688,2
+		H-98.25z"/>
+	
+		<rect id="rect5829" x="-162.831" y="46.198" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12.194" height="0.508">
+	</rect>
+	<path id="path5835" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-154.324,46.198l-2.648-2.033
+		l0.662,2.033H-154.324z"/>
+	<path id="path5837" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-154.324,46.198l1.324-1.017
+		l-1.324-2.032l-1.324,2.032L-154.324,46.198z"/>
+	<path id="path5839" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-154.324,46.198l2.648-2.033
+		l-0.662,2.033H-154.324z"/>
+	
+		<rect id="rect5867" x="-148" y="35.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5871" x="-142.5" y="68.681" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path5877" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-139,68.681l-2.5-2l0.625,2
+		H-139z"/>
+	<path id="path5879" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-139,68.681l1.25-1l-1.25-2
+		l-1.25,2L-139,68.681z"/>
+	<path id="path5881" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-139,68.681l2.5-2l-0.625,2
+		H-139z"/>
+	<path id="path5899" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-117,54.468l-1.986-1.524
+		l0.497,1.524H-117z"/>
+	<path id="path5901" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-117,54.468l0.993-0.762
+		L-117,52.181l-0.993,1.524L-117,54.468z"/>
+	<path id="path5903" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-117,54.468l1.986-1.524
+		l-0.497,1.524H-117z"/>
+	
+		<rect id="rect5905" x="-170.257" y="80.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.007" height="0.5">
+	</rect>
+	<path id="path5911" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-162,80.181l-2.75-2l0.688,2
+		H-162z"/>
+	<path id="path5913" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-162,80.181l1.375-1l-1.375-2
+		l-1.375,2L-162,80.181z"/>
+	<path id="path5915" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-162,80.181l2.75-2l-0.688,2
+		H-162z"/>
+	
+		<rect id="rect5917" x="-176" y="69.673" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+</g>
+<g id="wetland-16" transform="matrix(2,0,0,2,-11.890625,224.48156)" inkscape:label="#g7654" opacity="0.3">
+	
+		<rect id="rect6532" x="5.945" y="27.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect6534" x="37.945" y="27.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect6536" x="37.945" y="59.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect6538" x="5.945" y="59.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect6542" x="7.445" y="34.259" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path6548" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M11.445,34.259l-2.5-2l0.625,2
+		H11.445z"/>
+	<path id="path6550" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M11.445,34.259l1.25-1l-1.25-2
+		l-1.25,2L11.445,34.259z"/>
+	<path id="path6552" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M11.445,34.259l2.5-2l-0.625,2
+		H11.445z"/>
+	
+		<rect id="rect6556" x="21.945" y="61.259" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	<path id="path6562" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M30.195,61.259l-2.75-2l0.688,2
+		H30.195z"/>
+	<path id="path6564" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M30.195,61.259l1.375-1
+		l-1.375-2l-1.375,2L30.195,61.259z"/>
+	<path id="path6566" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M30.195,61.259l2.75-2l-0.688,2
+		H30.195z"/>
+	
+		<rect id="rect6568" x="7.945" y="46.259" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6572" x="56.445" y="69.759" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	<path id="path6578" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M60.445,69.759l-2.5-2l0.625,2
+		H60.445z"/>
+	<path id="path6580" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M60.445,69.759l1.25-1l-1.25-2
+		l-1.25,2L60.445,69.759z"/>
+	<path id="path6582" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M60.445,69.759l2.5-2l-0.625,2
+		H60.445z"/>
+	<path id="path6588" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M63.695,44.759l-2-1.524
+		l0.5,1.524H63.695z"/>
+	<path id="path6590" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M63.695,44.759l1-0.762
+		l-1-1.524l-1,1.524L63.695,44.759z"/>
+	<path id="path6592" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M63.695,44.759l2-1.524
+		l-0.5,1.524H63.695z"/>
+	
+		<rect id="rect6594" x="35.945" y="43.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6608" x="13.445" y="88.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="12" height="0.5">
+	</rect>
+	<path id="path6614" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M21.945,88.759l-2.75-2l0.688,2
+		H21.945z"/>
+	<path id="path6616" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M21.945,88.759l1.375-1
+		l-1.375-2l-1.375,2L21.945,88.759z"/>
+	<path id="path6618" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M21.945,88.759l2.75-2l-0.688,2
+		H21.945z"/>
+	
+		<rect id="rect6620" x="7.945" y="78.259" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6710" x="58.945" y="88.259" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	<path id="path6716" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M47.945,36.546l-2-1.524
+		l0.5,1.524H47.945z"/>
+	<path id="path6718" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M47.945,36.546l1-0.762
+		l-1-1.524l-1,1.524L47.945,36.546z"/>
+	<path id="path6721" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M47.945,36.546l2-1.524
+		l-0.5,1.524H47.945z"/>
+	<path id="path6811" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M45.445,83.259l-2-1.524
+		l0.5,1.524H45.445z"/>
+	<path id="path6813" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M45.445,83.259l1-0.762
+		l-1-1.524l-1,1.524L45.445,83.259z"/>
+	<path id="path6815" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M45.445,83.259l2-1.524
+		l-0.5,1.524H45.445z"/>
+</g>
+<g id="wetland-15" transform="translate(179.32388,105.99392)" inkscape:label="#g7729" opacity="0.3">
+	
+		<rect id="rect7731" x="-43.324" y="174.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="64" height="64">
+	</rect>
+	
+		<rect id="rect7735" x="-38.324" y="182.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="10" height="1">
+	</rect>
+	<path id="path7741" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-32.819,182.006l-3.495-2.666
+		l0.873,2.666H-32.819z"/>
+	<path id="path7743" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-32.819,182.006l1.747-1.334
+		l-1.747-2.666l-1.747,2.666L-32.819,182.006z"/>
+	<path id="path7745" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-32.819,182.006l3.495-2.666
+		l-0.874,2.666H-32.819z"/>
+	<path id="path7751" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-12.324,186.006l-3-2.319
+		l0.75,2.319H-12.324z"/>
+	<path id="path7753" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-12.324,186.006l1.5-1.16
+		l-1.5-2.318l-1.5,2.318L-12.324,186.006z"/>
+	<path id="path7755" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-12.324,186.006l3-2.319
+		l-0.75,2.319H-12.324z"/>
+	
+		<rect id="rect7759" x="-27.324" y="206.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="18" height="1">
+	</rect>
+	<path id="path7765" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-14.822,206.006l-3.998-3.068
+		l1,3.068H-14.822z"/>
+	<path id="path7767" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-14.822,206.006l1.999-1.534
+		l-1.999-3.068l-1.999,3.068L-14.822,206.006z"/>
+	<path id="path7769" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-14.822,206.006l3.998-3.068
+		l-1,3.068H-14.822z"/>
+	
+		<rect id="rect7771" x="9.676" y="214.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="11" height="1">
+	</rect>
+	<path id="path6588-3" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M12.676,194.006l-4-3.049
+		l1,3.049H12.676z"/>
+	<path id="path6590-1" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M12.676,194.006l2-1.524
+		l-2-3.049l-2,3.049L12.676,194.006z"/>
+	<path id="path6592-3" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M12.676,194.006l4-3.049
+		l-1,3.049H12.676z"/>
+	
+		<rect id="rect9042" x="-35.324" y="229.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="11" height="1">
+	</rect>
+	
+		<rect id="rect9046" x="-2.324" y="231.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="10" height="1">
+	</rect>
+	<path id="path9052" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M3.181,231.006l-3.495-2.666
+		l0.873,2.666H3.181z"/>
+	<path id="path9054" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M3.181,231.006l1.747-1.334
+		l-1.747-2.666l-1.747,2.666L3.181,231.006z"/>
+	<path id="path9056" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M3.181,231.006l3.495-2.666
+		l-0.874,2.666H3.181z"/>
+</g>
+<rect id="rect5222_1_" x="527" y="42" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="28" height="2">
+</rect>
+<path id="path5229_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M543,42l-10-8l2.5,8H543z"/>
+<path id="path5231_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M543,42l5-4l-5-8l-5,8
+	L543,42z"/>
+<path id="path5233_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M543,42l10-8l-2.5,8H543z"/>
+<rect id="rect5249_1_" x="528" y="90" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2">
+</rect>
+<path id="path5269_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M736,83l-8-6.098L730,83H736z
+	"/>
+<path id="path5271_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M736,83l4-3.049l-4-6.098
+	l-4,6.098L736,83z"/>
+<path id="path5273_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M736,83l8-6.098L742,83H736z"
+	/>
+<rect id="rect5275_1_" x="640" y="80" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2.032">
+</rect>
+<rect id="rect5279_1_" x="668" y="190" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="28" height="2">
+</rect>
+<path id="path5285_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M683,190l-10-8l2.5,8H683z"/>
+<path id="path5287_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M683,190l5-4l-5-8l-5,8
+	L683,190z"/>
+<path id="path5289_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M683,190l10-8l-2.5,8H683z"/>
+<rect id="rect5291_1_" x="491.268" y="308.064" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="48.78" height="2.033">
+</rect>
+<path id="path5298_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M525.297,308.064
+	l-10.594-8.129l2.648,8.129H525.297z"/>
+<path id="path5300_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M525.297,308.064
+	l5.297-4.064l-5.297-8.13L520,304L525.297,308.064z"/>
+<path id="path5302_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M525.297,308.064
+	l10.594-8.129l-2.648,8.129H525.297z"/>
+<rect id="rect5314_1_" x="578" y="224" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="22" height="2">
+</rect>
+<rect id="rect5356_1_" x="326" y="124" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="48" height="2">
+</rect>
+<path id="path5362_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M361,124l-11-8l2.75,8H361z"
+	/>
+<path id="path5364_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M361,124l5.5-4l-5.5-8
+	l-5.5,8L361,124z"/>
+<path id="path5366_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M361,124l11-8l-2.75,8H361z"
+	/>
+<rect id="rect5356-2_1_" x="582" y="124" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="48" height="2">
+</rect>
+<path id="path5362-5_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M617,124l-11-8l2.75,8H617z
+	"/>
+<path id="path5364-0_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M617,124l5.5-4l-5.5-8
+	l-5.5,8L617,124z"/>
+<path id="path5366-2_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M617,124l11-8l-2.75,8H617z
+	"/>
+<rect id="rect5368_1_" x="272" y="90" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2">
+</rect>
+<rect id="rect5372_1_" x="444" y="36" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="28" height="2">
+</rect>
+<path id="path5378_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M459,36l-10-8l2.5,8H459z"/>
+<path id="path5380_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M459,36l5-4l-5-8l-5,8
+	L459,36z"/>
+<path id="path5382_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M459,36l10-8l-2.5,8H459z"/>
+<rect id="rect5398_1_" x="381" y="184" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="30" height="2">
+</rect>
+<path id="path5404_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M397,184l-10-8l2.5,8H397z"/>
+<path id="path5406_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M397,184l5-4l-5-8l-5,8
+	L397,184z"/>
+<path id="path5408_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M397,184l10-8l-2.5,8H397z"/>
+<rect id="rect5410_1_" x="448.504" y="236" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="33.496" height="2">
+</rect>
+<path id="path5426_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M508,155l-8-6.098l2,6.098
+	H508z"/>
+<path id="path5428_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M508,155l4-3.049l-4-6.098
+	l-4,6.098L508,155z"/>
+<path id="path5430_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M508,155l8-6.098L514,155H508
+	z"/>
+<rect id="rect5432_1_" x="293.971" y="260" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="48.78" height="2.032">
+</rect>
+<path id="path5438_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M328,260l-10.594-8.13
+	l2.648,8.13H328z"/>
+<path id="path5440_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M328,260l5.297-4.064
+	L328,247.805l-5.297,8.131L328,260z"/>
+<path id="path5442_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M328,260l10.594-8.13
+	l-2.648,8.13H328z"/>
+<rect id="rect5444_1_" x="272" y="218" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2">
+</rect>
+<rect id="rect5686_1_" x="264" y="16" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="256" height="256">
+</rect>
+<rect id="rect5688_1_" x="520" y="16" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="256" height="256">
+</rect>
+<rect id="rect5690_1_" x="520" y="272" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="256" height="256">
+</rect>
+<rect id="rect5692_1_" x="264" y="272" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="256" height="256">
+</rect>
+<rect id="rect5710_1_" x="580.675" y="380.064" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="48.779" height="2.033">
+</rect>
+<path id="path5716_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M614.703,380.064
+	l-10.594-8.129l2.648,8.129H614.703z"/>
+<path id="path5718_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M614.703,380.064L620,376
+	l-5.297-8.13l-5.297,8.13L614.703,380.064z"/>
+<path id="path5720_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M614.703,380.064
+	l10.594-8.129l-2.648,8.129H614.703z"/>
+<rect id="rect5726_1_" x="699" y="292" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="28" height="2">
+</rect>
+<path id="path5732_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M714,292l-10-8l2.5,8H714z"/>
+<path id="path5734_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M714,292l5-4l-5-8l-5,8
+	L714,292z"/>
+<path id="path5736_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M714,292l10-8l-2.5,8H714z"/>
+<path id="path5742_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M736,340l-7.945-6.098
+	l1.986,6.098H736z"/>
+<path id="path5744_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M736,340l3.973-3.049
+	L736,330.854l-3.973,6.098L736,340z"/>
+<path id="path5746_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M736,340l7.945-6.098
+	L741.959,340H736z"/>
+<rect id="rect5748_1_" x="640" y="336" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2.032">
+</rect>
+<rect id="rect5764_1_" x="705" y="492.065" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="48" height="1.935">
+</rect>
+<path id="path5770_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M739,492l-11-8l2.75,8H739z"
+	/>
+<path id="path5772_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M739,492l5.5-4l-5.5-8
+	l-5.5,8L739,492z"/>
+<path id="path5774_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M739,492l11-8l-2.75,8H739z"
+	/>
+<path id="path5780_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M764,413l-8-6.667l2,6.667
+	H764z"/>
+<path id="path5782_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M764,413l4-3.333L764,403
+	l-4,6.667L764,413z"/>
+<path id="path5784_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M764,413l8-6.667L770,413H764
+	z"/>
+<rect id="rect5786_1_" x="549.972" y="516" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="48.028" height="2.032">
+</rect>
+<path id="path5792_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M583,516l-11-8l2.75,8H583z"
+	/>
+<path id="path5794_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M583,516l5.5-4l-5.5-8
+	l-5.5,8L583,516z"/>
+<path id="path5796_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M583,516l11-8l-2.75,8H583z"
+	/>
+<rect id="rect5829_1_" x="324.675" y="380.064" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="48.779" height="2.033">
+</rect>
+<path id="path5835_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M358.703,380.064
+	l-10.594-8.129l2.648,8.129H358.703z"/>
+<path id="path5837_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M358.703,380.064L364,376
+	l-5.297-8.13l-5.297,8.13L358.703,380.064z"/>
+<path id="path5839_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M358.703,380.064
+	l10.594-8.129l-2.648,8.129H358.703z"/>
+<rect id="rect5867_1_" x="384" y="336" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2">
+</rect>
+<rect id="rect5871_1_" x="406" y="470" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="28" height="2">
+</rect>
+<path id="path5877_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M420,470l-10-8l2.5,8H420z"/>
+<path id="path5879_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M420,470l5-4l-5-8l-5,8
+	L420,470z"/>
+<path id="path5881_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M420,470l10-8l-2.5,8H420z"/>
+<path id="path5899_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M508,413.146l-7.945-6.098
+	l1.986,6.098H508z"/>
+<path id="path5901_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M508,413.146l3.973-3.049
+	L508,404l-3.973,6.098L508,413.146z"/>
+<path id="path5903_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M508,413.146l7.945-6.098
+	l-1.986,6.098H508z"/>
+<rect id="rect5905_1_" x="294.971" y="516" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="48.029" height="2">
+</rect>
+<path id="path5911_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M328,516l-11-8l2.75,8H328z"
+	/>
+<path id="path5913_1_" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M328,516l5.5-4l-5.5-8
+	l-5.5,8L328,516z"/>
+<path id="path5915_1_" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M328,516l11-8l-2.75,8H328z"
+	/>
+<rect id="rect5917_1_" x="272" y="473.968" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="24" height="2.032">
+</rect>
+<g id="wetland-14" transform="translate(251.32388,105.99392)" inkscape:label="#g9060" opacity="0.3">
+	
+		<rect id="rect9062" x="-43.324" y="174.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="32" height="32">
+	</rect>
+	
+		<rect id="rect9066" x="-41.324" y="180.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="10" height="1">
+	</rect>
+	<path id="path9072" inkscape:connector-curvature="0" fill="#44885A" d="M-35.824,177.006l-1.25,2l-1.25-1l0.625,2h1.875h1.875
+		l0.625-2l-1.25,1L-35.824,177.006z"/>
+	<path id="path9082" inkscape:connector-curvature="0" fill="#44885A" d="M-19.824,182.006l-1.25,2l-1.25-1l0.625,2h1.875h1.875
+		l0.625-2l-1.25,1L-19.824,182.006z"/>
+	
+		<rect id="rect9090" x="-33.324" y="205.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="18" height="1">
+	</rect>
+	<path id="path9097" inkscape:connector-curvature="0" fill="#44885A" d="M-20.824,201.006l-1.75,2.666l-1.75-1.332l0.875,2.666
+		h2.625h2.625l0.875-2.666l-1.75,1.332L-20.824,201.006z"/>
+	
+		<rect id="rect9103" x="-15.324" y="189.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	<path id="path9109" inkscape:connector-curvature="0" fill="#44885A" d="M-31.324,192.506l-1.75,2.35l-1.75-1.175l0.875,2.325
+		h2.625h2.625l0.875-2.325l-1.75,1.175L-31.324,192.506z"/>
+	
+		<rect id="rect9131" x="-43.324" y="189.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+</g>
+<g id="wetland-13" transform="translate(251.32388,141.99392)" inkscape:label="#g9060" opacity="0.3">
+	
+		<rect id="rect9135" x="-43.324" y="174.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="16" height="16">
+	</rect>
+	
+		<rect id="rect9139" x="-35.324" y="177.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="8" height="1">
+	</rect>
+	<path id="path9145" inkscape:connector-curvature="0" fill="#44885A" d="M-30.824,174.006l-1.25,2l-1.25-1l0.625,2h1.875h1.875
+		l0.625-2l-1.25,1L-30.824,174.006z"/>
+	<path id="path9155" inkscape:connector-curvature="0" fill="#44885A" d="M-39.824,179.506l-1.012,1.666l-0.988-0.832l0.506,1.666
+		h1.494h1.494l0.506-1.666l-1.012,0.832L-39.824,179.506z"/>
+	
+		<rect id="rect9175" x="-31.324" y="183.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	<path id="path9181" inkscape:connector-curvature="0" fill="#44885A" d="M-33.824,185.006l-1.25,2l-1.25-1l0.625,2h1.875h1.875
+		l0.625-2l-1.25,1L-33.824,185.006z"/>
+	
+		<rect id="rect9187" x="-43.324" y="189.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	
+		<rect id="rect9235" x="-43.324" y="183.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="2" height="1">
+	</rect>
+</g>
+<g id="wetland-12" transform="matrix(0.75000001,0,0,0.75000001,273.49291,151.08598)" inkscape:label="#g9060" opacity="0.3">
+	
+		<rect id="rect9193" x="-60.657" y="219.885" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="16" height="16">
+	</rect>
+	
+		<rect id="rect9197" x="-52.657" y="222.552" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="8" height="1.333">
+	</rect>
+	<path id="path9203" fill="#44885A" d="M-47.991,219.885l-1.333,1.792l-1.333-0.917l0.667,1.792h2h2l0.667-1.792l-1.333,0.917
+		L-47.991,219.885z"/>
+	<path id="path9213" inkscape:connector-curvature="0" fill="#44885A" d="M-55.991,223.885l-1,1.779l-1-0.891l0.516,1.779h1.484
+		h1.516l0.484-1.779l-1,0.891L-55.991,223.885z"/>
+	
+		<rect id="rect9219" x="-48.657" y="227.885" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1.333">
+	</rect>
+	<path id="path9225" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-50.657,233.219l-2.667-2
+		l0.667,2H-50.657z"/>
+	<path id="path9227" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#44885A" d="M-50.657,233.219l1.333-1
+		l-1.333-2l-1.333,2L-50.657,233.219z"/>
+	<path id="path9229" sodipodi:nodetypes="cccc" inkscape:connector-curvature="0" fill="#44885A" d="M-50.657,233.219l2.667-2
+		l-0.667,2H-50.657z"/>
+	
+		<rect id="rect9231" x="-60.657" y="234.552" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="5.333" height="1.333">
+	</rect>
+	
+		<rect id="rect9237" x="-60.657" y="227.885" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="1.333" height="1.333">
+	</rect>
+</g>
+<g id="g5412" transform="matrix(2,0,0,2,356,633.63782)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-17.png" inkscape:export-xdpi="90" inkscape:label="#g7498" opacity="0.3">
+	
+		<rect id="rect5414" x="-112.25" y="-38.319" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5422" x="-112" y="-26.319" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5431" x="-84" y="-28.819" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	
+		<rect id="rect5433" x="-77" y="-1.319" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5441" x="-121.183" y="28.197" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.195" height="0.508">
+	</rect>
+	
+		<rect id="rect5449" x="-99.5" y="7.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="5.5" height="0.5">
+	</rect>
+	
+		<rect id="rect5451" x="-162.5" y="-17.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	
+		<rect id="rect5459" x="-98.5" y="-17.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	
+		<rect id="rect5467" x="-176" y="-26.319" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5469" x="-133" y="-39.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5477" x="-148.75" y="-2.819" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7.5" height="0.5">
+	</rect>
+	
+		<rect id="rect5485" x="-131.874" y="10.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="8.374" height="0.5">
+	</rect>
+	
+		<rect id="rect5493" x="-170.507" y="16.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.194" height="0.508">
+	</rect>
+	
+		<rect id="rect5501" x="-176" y="5.681" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5503" x="-178" y="-44.819" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5505" x="-114" y="-44.819" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5507" x="-114" y="19.181" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5509" x="-178" y="19.181" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5511" x="-98.831" y="46.197" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12.194" height="0.508">
+	</rect>
+	
+		<rect id="rect5519" x="-69.25" y="24.181" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5533" x="-84" y="35.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	
+		<rect id="rect5535" x="-67.75" y="74.197" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12" height="0.484">
+	</rect>
+	
+		<rect id="rect5549" x="-106.507" y="80.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.007" height="0.508">
+	</rect>
+	
+		<rect id="rect5557" x="-162.831" y="46.197" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12.194" height="0.508">
+	</rect>
+	
+		<rect id="rect5565" x="-148" y="35.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5567" x="-142.5" y="68.681" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5581" x="-170.257" y="80.181" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.007" height="0.5">
+	</rect>
+	
+		<rect id="rect5589" x="-176" y="69.673" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	<g id="g5804">
+		<rect id="rect5765" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<rect id="rect5765-1" x="-55" y="53.681" fill="#44885A" width="0.5" height="0.5"/>
+	<rect id="rect5767-7" x="-54" y="53.681" fill="#44885A" width="0.5" height="0.5"/>
+	<rect id="rect5769-5" x="-53" y="53.681" fill="#44885A" width="0.5" height="0.5"/>
+	<rect id="rect5771-4" x="-52" y="53.681" fill="#44885A" width="0.5" height="0.5"/>
+	<g id="g5804-4" transform="translate(-57,-46.499999)">
+		<rect id="rect5765-17" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-4" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-56" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-2" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-2" transform="translate(0,-64.499999)">
+		<rect id="rect5765-4" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-1" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-6" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-6" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-1" transform="translate(-57,18.000002)">
+		<rect id="rect5765-46" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-9" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-9" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-64" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+<g id="g5591" transform="matrix(2,0,0,2,-11.890625,752.48156)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-16.png" inkscape:export-xdpi="90" inkscape:label="#g7654" opacity="0.3">
+	
+		<rect id="rect5593" x="5.945" y="27.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect5595" x="37.945" y="27.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect5597" x="37.945" y="59.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect5599" x="5.945" y="59.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="none" width="32" height="32">
+	</rect>
+	
+		<rect id="rect5601" x="7.445" y="34.259" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5609" x="21.945" y="61.259" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	
+		<rect id="rect5617" x="7.945" y="46.259" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5619" x="56.445" y="69.759" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect5633" x="35.945" y="43.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5635" x="13.445" y="88.759" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="12" height="0.5">
+	</rect>
+	
+		<rect id="rect5643" x="7.945" y="78.259" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect5645" x="58.945" y="88.259" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-128.png" inkscape:export-xdpi="180" fill="#44885A" width="6" height="0.5">
+	</rect>
+	<g id="g5804-5" transform="translate(105.44531,47.078132)">
+		<rect id="rect5765-6" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-94" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-7" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-0" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-8" transform="translate(107.94531,0.07813239)">
+		<rect id="rect5765-5" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-15" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-2" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-5" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-15" transform="translate(123.94531,8.5781312)">
+		<rect id="rect5765-3" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-6" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-21" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-8" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+<g id="g5659" transform="translate(179.32388,633.99392)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-15.png" inkscape:export-xdpi="90" inkscape:label="#g7729" opacity="0.3">
+	
+		<rect id="rect5661" x="-43.324" y="174.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="64" height="64">
+	</rect>
+	
+		<rect id="rect5663" x="-38.324" y="182.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="10" height="1">
+	</rect>
+	
+		<rect id="rect5677" x="-27.324" y="206.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="18" height="1">
+	</rect>
+	
+		<rect id="rect5685" x="9.676" y="214.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="11" height="1">
+	</rect>
+	
+		<rect id="rect5693" x="-35.324" y="229.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="11" height="1">
+	</rect>
+	
+		<rect id="rect5695" x="-2.324" y="231.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="10" height="1">
+	</rect>
+	<g id="g5804-47" transform="matrix(2,0,0,2,107.67612,113.6439)">
+		<rect id="rect5765-12" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-5" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-3" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-81" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-470" transform="matrix(2,0,0,2,132.67612,121.6439)">
+		<rect id="rect5765-0" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-56" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-0" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-1" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+<g id="g5705" transform="translate(251.32388,633.99392)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-14.png" inkscape:export-xdpi="90" inkscape:label="#g9060" opacity="0.3">
+	
+		<rect id="rect5707" x="-43.324" y="174.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="32" height="32">
+	</rect>
+	
+		<rect id="rect5709" x="-41.324" y="180.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="10" height="1">
+	</rect>
+	
+		<rect id="rect5715" x="-33.324" y="205.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="18" height="1">
+	</rect>
+	
+		<rect id="rect5719" x="-15.324" y="189.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	
+		<rect id="rect5723" x="-43.324" y="189.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	<g id="g5804-40" transform="matrix(2,0,0,2,100.67612,112.6439)">
+		<rect id="rect5765-01" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-3" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-75" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-19" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-0" transform="matrix(2,0,0,2,88.67612,123.6439)">
+		<rect id="rect5765-45" x="-62" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5767-2" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-756" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-46" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+<g id="g5725" transform="translate(251.32388,669.99392)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-13.png" inkscape:export-xdpi="90" inkscape:label="#g9060" opacity="0.3">
+	
+		<rect id="rect5727" x="-43.324" y="174.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="16" height="16">
+	</rect>
+	
+		<rect id="rect5729" x="-35.324" y="177.006" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="8" height="1">
+	</rect>
+	
+		<rect id="rect5735" x="-31.324" y="183.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	
+		<rect id="rect5739" x="-43.324" y="189.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1">
+	</rect>
+	
+		<rect id="rect5741" x="-43.324" y="183.006" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="2" height="1">
+	</rect>
+	<g id="g5804-81" transform="matrix(2,0,0,2,85.67612,115.6439)">
+		<rect id="rect5767-76" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-4" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-813" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+<g id="g5743" transform="matrix(0.75000001,0,0,0.75000001,273.49291,679.08598)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-12.png" inkscape:export-xdpi="90" inkscape:label="#g9060" opacity="0.3">
+	
+		<rect id="rect5745" x="-60.657" y="219.885" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#164D75" fill-opacity="0" width="16" height="16">
+	</rect>
+	
+		<rect id="rect5747" x="-52.657" y="222.552" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="8" height="1.333">
+	</rect>
+	
+		<rect id="rect5753" x="-48.657" y="227.885" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="4" height="1.333">
+	</rect>
+	
+		<rect id="rect5761" x="-60.657" y="234.552" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="5.333" height="1.333">
+	</rect>
+	
+		<rect id="rect5763" x="-60.657" y="227.885" inkscape:export-ydpi="45" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-16.png" inkscape:export-xdpi="45" fill="#44885A" width="1.333" height="1.333">
+	</rect>
+	<g id="g5804-81-8" transform="matrix(2.6666666,0,0,2.6666666,108.67612,136.73579)">
+		<rect id="rect5767-76-5" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-4-9" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-813-0" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g5804-81-5" transform="matrix(2.6666666,0,0,2.6666666,103.34278,130.06912)">
+		<rect id="rect5767-76-2" x="-61" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5769-4-5" x="-60" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect5771-813-2" x="-59" y="35.681" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+<g id="g6043" transform="matrix(3.9999999,0,0,3.9999999,923.99999,860.91344)" inkscape:export-ydpi="90" inkscape:export-filename="/home/aj/src/mapbox-streets/img-1x/pattern/wetland-noveg-18.png" inkscape:export-xdpi="90" inkscape:label="#g7498" opacity="0.3">
+	
+		<rect id="rect6045" x="-99.25" y="-72.728" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect6047" x="-99" y="-60.728" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6049" x="-71" y="-63.228" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	
+		<rect id="rect6051" x="-64" y="-35.728" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect6053" x="-108.183" y="-6.212" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.195" height="0.508">
+	</rect>
+	
+		<rect id="rect6055" x="-86.5" y="-27.228" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="5.5" height="0.5">
+	</rect>
+	
+		<rect id="rect6057" x="-149.5" y="-52.228" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	
+		<rect id="rect6059" x="-85.5" y="-52.228" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12" height="0.5">
+	</rect>
+	
+		<rect id="rect6061" x="-163" y="-60.728" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6063" x="-120" y="-74.228" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect6065" x="-135.75" y="-37.228" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7.5" height="0.5">
+	</rect>
+	
+		<rect id="rect6067" x="-118.874" y="-24.228" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="8.374" height="0.5">
+	</rect>
+	
+		<rect id="rect6069" x="-157.507" y="-18.228" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.195" height="0.508">
+	</rect>
+	
+		<rect id="rect6071" x="-163" y="-28.728" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6073" x="-165" y="-79.228" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect6075" x="-101" y="-79.228" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect6077" x="-101" y="-15.228" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect6079" x="-165" y="-15.228" inkscape:export-ydpi="180" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-64.png" inkscape:export-xdpi="180" fill="none" width="64" height="64">
+	</rect>
+	
+		<rect id="rect6081" x="-85.831" y="11.788" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12.195" height="0.508">
+	</rect>
+	
+		<rect id="rect6083" x="-56.25" y="-10.228" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect6085" x="-71" y="0.772" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	
+		<rect id="rect6087" x="-54.75" y="39.788" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12" height="0.484">
+	</rect>
+	
+		<rect id="rect6089" x="-93.507" y="45.772" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.007" height="0.508">
+	</rect>
+	
+		<rect id="rect6091" x="-149.831" y="11.788" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="12.195" height="0.508">
+	</rect>
+	
+		<rect id="rect6093" x="-135" y="0.772" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.5">
+	</rect>
+	
+		<rect id="rect6095" x="-129.5" y="34.272" inkscape:export-ydpi="90" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-16.png" inkscape:export-xdpi="90" fill="#44885A" width="7" height="0.5">
+	</rect>
+	
+		<rect id="rect6097" x="-157.257" y="45.772" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="12.007" height="0.5">
+	</rect>
+	
+		<rect id="rect6099" x="-163" y="35.264" inkscape:export-ydpi="360" inkscape:export-filename="/Users/ianvilleda/Documents/mapbox-fancy/osm-bright-minimal/img/wetland-blank-512.png" inkscape:export-xdpi="360" fill="#44885A" width="6" height="0.508">
+	</rect>
+	<g id="g6101">
+		<rect id="rect6103" x="-49" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6105" x="-48" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6107" x="-47" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6109" x="-46" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<rect id="rect6111" x="-42" y="19.272" fill="#44885A" width="0.5" height="0.5"/>
+	<rect id="rect6113" x="-41" y="19.272" fill="#44885A" width="0.5" height="0.5"/>
+	<rect id="rect6115" x="-40" y="19.272" fill="#44885A" width="0.5" height="0.5"/>
+	<rect id="rect6117" x="-39" y="19.272" fill="#44885A" width="0.5" height="0.5"/>
+	<g id="g6119" transform="translate(-57,-46.499999)">
+		<rect id="rect6121" x="-49" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6123" x="-48" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6125" x="-47" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6127" x="-46" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g6129" transform="translate(0,-64.499999)">
+		<rect id="rect6131" x="-49" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6133" x="-48" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6135" x="-47" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6137" x="-46" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+	<g id="g6139" transform="translate(-57,18.000002)">
+		<rect id="rect6141" x="-49" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6143" x="-48" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6145" x="-47" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+		<rect id="rect6147" x="-46" y="1.272" fill="#44885A" width="0.5" height="0.5"/>
+	</g>
+</g>
+</svg>
