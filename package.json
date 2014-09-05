@@ -1,0 +1,7 @@
+{
+    "name": "run-bike-and-hike",
+    "version": "1.0.0",
+    "description": "Style for Mapbox Studio",
+    "main": "./package.json",
+    "private": true
+}
