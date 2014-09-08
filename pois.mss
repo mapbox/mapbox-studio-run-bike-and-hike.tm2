@@ -124,7 +124,7 @@
       text-dy: 13; 
       text-wrap-width: 70;
       marker-file: url("img/maki/triangle-stroked-18.svg");
-    }
+  }
 }
 
 // Parks //
@@ -183,23 +183,23 @@
   text-wrap-width: 50;
   text-dy: 10; 
   text-line-spacing: -4;
-   [scalerank=1] {
-      [zoom>=15] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
-      [zoom>=16] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
-      [zoom>=17] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
-      [zoom>=18] { text-size: 16; text-wrap-width: 85; text-dy: 16; }
-      [zoom>=19] { text-dy: 19; }
-    }
-    [scalerank=2] {
-      [zoom>=16] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
-      [zoom>=17] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
-      [zoom>=18] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
-      [zoom>=19] { text-dy: 17; }
-    }
-    [scalerank>=3] {
-      [zoom>=17] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
-      [zoom>=19] { text-size: 12; text-wrap-width: 65; text-dy: 15; }
-    }
+  [scalerank=1] {
+    [zoom>=15] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
+    [zoom>=16] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
+    [zoom>=17] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
+    [zoom>=18] { text-size: 16; text-wrap-width: 85; text-dy: 16; }
+    [zoom>=19] { text-dy: 19; }
+  }
+  [scalerank=2] {
+    [zoom>=16] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
+    [zoom>=17] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
+    [zoom>=18] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
+    [zoom>=19] { text-dy: 17; }
+  }
+  [scalerank>=3] {
+    [zoom>=17] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
+    [zoom>=19] { text-size: 12; text-wrap-width: 65; text-dy: 15; }
+  }
   marker-file: url("img/maki/[maki]-12.svg");
   marker-fill: darken(@poi_text, 3);   
   marker-line-color:@poi_halo;
@@ -210,8 +210,8 @@
       text-fill: @park_text; 
       marker-fill: @park_text;
     }   
-   }
   }
+}
 
 // Scalerank = 4
 #poi_label [maki!='park'][type!='Aerodrome'][type!='Rail Station'][type!='Peak'][scalerank=4] {
@@ -237,9 +237,9 @@
       text-size: 11; 
       text-dy: 14; 
       text-wrap-width: 60; 
-    }  
+  }  
   marker-file: url("img/maki/[maki]-12.svg");
   [zoom>=19] { marker-file: url("img/maki/[maki]-18.svg"); }
   marker-fill: darken(@poi_text, 3);
-   }
   }
+}

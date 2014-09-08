@@ -26,7 +26,7 @@
   [zoom>=7][scalerank>3] {
     text-size: 16;
     text-wrap-width: 185;
-    }
+  }
   [zoom>=8] { text-fill: @country_text_high; }  
 }
 
@@ -81,16 +81,16 @@
  [ldir='E'] {
       text-name: '∘ ' + [name_en];
       text-horizontal-alignment: right; 
-        }
+      }
     [ldir='W'] {
       text-name: [name_en] + ' ∘';
       text-horizontal-alignment: left; 
-        }
+      }
     [ldir='S'] { 
       text-name: '∘\n' + [name_en];
       text-line-spacing: -10;
       text-vertical-alignment: bottom;
-     } 
+      } 
      [ldir='N'] {
       text-name: [name_en] + '\n∘';
       text-line-spacing: -10;
@@ -124,7 +124,6 @@
       text-horizontal-alignment: left;
       text-align: right;
       }
-    
     text-name: @name;
     text-size: 16;
     text-face-name: @reg;
@@ -133,8 +132,8 @@
     text-halo-fill: @city_halo;
     text-halo-radius: 2;
     text-halo-rasterizer: fast;  
+    }
 }
-  }
 
 #place_label {
   [type='city'][zoom>=8][zoom<=15][localrank<=2] {
@@ -195,7 +194,7 @@
     [zoom>=16] { 
       text-size: 28;
       text-wrap-width: 180;  
-      }
+    }
   }
   [type='village'][zoom>=10][zoom<=18][localrank<=2],
   [type='hamlet'][zoom>=12][zoom<=18][localrank<=2]  {
@@ -213,42 +212,41 @@
     [zoom>=12] { 
         text-size: 18; 
         text-wrap-width: 180; 
-      }
+    }
     [zoom>=14] { 
         text-size: 20; 
         text-wrap-width: 200; 
-      }
+    }
     [zoom>=16] {
         text-fill: @village_text_high;
         text-size: 24; 
         text-wrap-width: 240; 
-        }
+     }
      [zoom>=18] {
         text-size: 26; 
         text-wrap-width: 250; 
-        }
       }
+    }
     [type='hamlet'] {
     [zoom>=12] { 
         text-size: 16; 
         text-wrap-width: 160;
-      }
+    }
     [zoom>=14] { 
         text-size: 18; 
         text-wrap-width: 180; 
-        }
+     }
      [zoom>=16] {
         text-fill: @village_text_high;
         text-size: 22; 
         text-wrap-width: 220; 
-        }
+      }
       [zoom>=18] {
         text-size: 24; 
         text-wrap-width: 240; 
-        }
-      }
-    
-  }
+       }
+    }
+ }
   
   [type='suburb'][zoom>=12][zoom<=17][localrank<=2],
   [type='neighbourhood'][zoom>=13][zoom<=17][localrank<=2] {
@@ -266,12 +264,12 @@
     [type='neighbourhood'][zoom>=14] {
       text-size: 16; 
       text-wrap-width: 160; 
-      }
+    }
     [type='suburb'][zoom>=14],
     [type='neighbourhood'][zoom>=15] {
       text-size: 18; 
       text-wrap-width: 180;
-      }
+    }
     [type='suburb'][zoom>=15],
     [type='neighbourhood'][zoom>=16] {
       text-size: 20; 
@@ -279,12 +277,12 @@
       }
      [type='suburb'][zoom>=16],
      [type='neighbourhood'][zoom>=17] {
-      text-size: 22; 
-      text-wrap-width: 220;
-      }
+       text-size: 22; 
+       text-wrap-width: 220;
+     }
      [type='suburb'][zoom>=17] {
-      text-size: 24; 
-      text-wrap-width: 240;
+       text-size: 24; 
+       text-wrap-width: 240;
       }
     [zoom>=16] { text-fill:@neigh_text_high; }
   }
@@ -316,59 +314,57 @@
   [zoom>=18]  {
     text-size: 10;
     text-wrap-width: 70;
-    }
+  }
   [zoom>=16][area>500000],
   [zoom>=18][area>10000],
   [zoom>=19]  {
     text-size: 11;
     text-wrap-width: 80;
-    }
+  }
   [zoom>=12][area>10000000],
   [zoom>=14][area>5000000]  {
     text-size: 12;
     text-wrap-width: 90;
-    }
+  }
   [zoom>=10][area>100000000]  {
     text-size: 13;
     text-wrap-width: 90;
-    }
+  }
 }
 
 // Waterways //
 #waterway_label {
-[class="river"][zoom>=13],
-[class="canal"][zoom>=15],
-[class="stream"][zoom>=17], 
-[class="stream_intermittent"][zoom>=17] {
-  text-placement: line;
-  text-avoid-edges:true;
-  text-min-distance: 400;
-  text-name: @name;
-  text-face-name: @it;
-  text-fill: darken(@marine_text, 5);
-  //text-fill: @water;
-  text-size: 10;
-  text-character-spacing: 0.5; 
-  text-halo-fill: fadeout(#fff, 95);
-  text-halo-radius: 1.5;
-  text-halo-rasterizer:fast;
-   } 
-[class="river"][zoom>=14],
-[class="canal"][zoom>=16],
-[class="stream"][zoom>=18], 
-[class="stream_intermittent"][zoom>=18] {
+  [class="river"][zoom>=13],
+  [class="canal"][zoom>=15],
+  [class="stream"][zoom>=17], 
+  [class="stream_intermittent"][zoom>=17] {
+    text-placement: line;
+    text-avoid-edges:true;
+    text-min-distance: 400;
+    text-name: @name;
+    text-face-name: @it;
+    text-fill: darken(@marine_text, 5);
+    text-size: 10;
+    text-character-spacing: 0.5; 
+    text-halo-fill: fadeout(#fff, 95);
+    text-halo-radius: 1.5;
+    text-halo-rasterizer:fast;
+  } 
+  [class="river"][zoom>=14],
+  [class="canal"][zoom>=16],
+  [class="stream"][zoom>=18], 
+  [class="stream_intermittent"][zoom>=18] {
     text-size: 11;
   }
-[class='river'][zoom=15],
-[class='canal'][zoom>=17] {
+  [class='river'][zoom=15],
+  [class='canal'][zoom>=17] {
     text-size: 12;
   }
-[class='river'][zoom>=16],
-[class='canal'][zoom>=18] {
+  [class='river'][zoom>=16],
+  [class='canal'][zoom>=18] {
     text-size: 13;
-    //text-spacing: 300;
   }
- }
+}
 
 // Marine (oceans and seas) //
 #marine_label {
@@ -506,7 +502,6 @@
   [class='main'][zoom>=14][len>1500], 
   [class='main'][zoom>=15][len>750],  
   [class='main'][zoom>=16],
-  //[class='street'][zoom<=14][len>2500],
   [class='street'][zoom>=15][len>1500],  
   [class='street'][zoom>=16],
   [class='street_limited'][zoom>=16] {
@@ -546,23 +541,23 @@
 
 // Smaller roads //
 #road_label['mapnik::geometry_type'=2]
-[class!='motorway']
-[class!='main']
-[class!='street']
-[class!='street_limited'] {
-  [len>750][zoom>=16],
-  [len>0][zoom>=17] {  
-    text-avoid-edges: true;
-    text-name: [name];
-    text-character-spacing: 0.25;
-    text-placement: line;
-    text-face-name: @reg;
-    text-fill: @road_text;
-    text-size: 11;
-    text-halo-fill: @road_halo;
-    text-halo-radius: 1;
-    text-halo-rasterizer: fast;
-    text-min-distance: 200; // only for labels w/ the same name
-    [zoom>=15] { text-fill: @road_text_high; }
-  }   
+  [class!='motorway']
+  [class!='main']
+  [class!='street']
+  [class!='street_limited'] {
+    [len>750][zoom>=16],
+    [len>0][zoom>=17] {  
+      text-avoid-edges: true;
+      text-name: [name];
+      text-character-spacing: 0.25;
+      text-placement: line;
+      text-face-name: @reg;
+      text-fill: @road_text;
+      text-size: 11;
+      text-halo-fill: @road_halo;
+      text-halo-radius: 1;
+      text-halo-rasterizer: fast;
+      text-min-distance: 200; // only for labels w/ the same name
+      [zoom>=15] { text-fill: @road_text_high; }
+    }   
  }  
