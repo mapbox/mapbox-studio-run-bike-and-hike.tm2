@@ -88,12 +88,12 @@
         }
     [ldir='S'] { 
       text-name: '∘\n' + [name_en];
-      text-line-spacing: -15;
+      text-line-spacing: -10;
       text-vertical-alignment: bottom;
      } 
      [ldir='N'] {
       text-name: [name_en] + '\n∘';
-      text-line-spacing: -15;
+      text-line-spacing: -10;
       text-vertical-alignment: top;
       }
     [ldir='SE'] {

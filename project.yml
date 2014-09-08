@@ -1,7 +1,7 @@
 _prefs: 
   baselayer: ''
   mapid: nicki.cce9a8a5
-  saveCenter: true
+  saveCenter: false
 _properties: 
   bridge: 
     "group-by": layer
@@ -12,8 +12,8 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - 19.550170898437496
-  - 47.79286140021344
+  - -122.62939453125
+  - 47.18971246448421
   - 8
 description: A map for running, biking, and hiking
 format: "png8:m=h:c=128"

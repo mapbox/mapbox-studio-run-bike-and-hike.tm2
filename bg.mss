@@ -205,7 +205,7 @@ Map {
 }
 
 #contour.label::label {
-  [index=10][zoom>=13] {
+  [index=10][zoom>=13][ele!=0] {
     text-name: "[ele]+'m'";
     text-face-name: @reg;
     text-placement: line;
