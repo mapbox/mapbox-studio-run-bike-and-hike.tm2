@@ -1,7 +1,7 @@
 _prefs: 
   baselayer: ''
   mapid: ''
-  saveCenter: true
+  saveCenter: false
 _properties: 
   bridge: 
     "group-by": layer
@@ -12,9 +12,9 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -71.11038208007812
-  - 42.36158819524629
-  - 13
+  - -122.7886962890625
+  - 47.39834920035926
+  - 8
 description: A map for running, biking, and hiking
 format: "png8:m=h:c=128"
 interactivity_layer: ''
