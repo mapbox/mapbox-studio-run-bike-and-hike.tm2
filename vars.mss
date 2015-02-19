@@ -9,7 +9,9 @@
 @reg: "Meta Offc Pro Normal", "Arial Unicode MS Regular";
 @lt: "Meta Offc Pro Light", "Arial Unicode MS Regular";
 @bold: "Meta Offc Pro Bold", "Arial Unicode MS Bold";
+@blk: "Meta Offc Pro Black", "Arial Unicode MS Bold";
 @it: "Meta Offc Pro Normal Italic", "Arial Unicode MS Regular";
+@it_bd: "Meta Offc Pro Bold Italic", "Arial Unicode MS Regular";
 
 ////////////////////////////////////////////////
 // COLORS //
@@ -78,8 +80,8 @@
 @country_text_high: @gray-4;
 @country_halo: fadeout(#fff, 90);
 
-@state_text:@gray-4;
-@state_halo: fadeout(#fff, 90);
+@state_text:@gray-5;
+@state_halo: fadeout( @gray-2, 40);
 
 @city_text: @black;
 @city_text_high:@gray-4;
@@ -100,8 +102,8 @@
 @poi_halo: fadeout(#fff, 95);
 @peak_text: @gray-5;
 @peak_halo: park_halo;
-@park_text: darken(@park, 45);
-@park_halo: fadeout(#fff, 90);
+@park_text: darken(@park, 40);
+@park_halo: fadeout(#fff, 70);
 @transport_text: @gray-5;
 @transport_halo: fadeout(#fff, 90);
 

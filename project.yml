@@ -12,8 +12,8 @@ bounds:
   - 180
   - 85.0511
 center: 
-  - -122.7886962890625
-  - 47.39834920035926
+  - -122.7887
+  - 47.3983
   - 8
 description: A map for running, biking, and hiking
 format: "png8:m=h:c=128"
@@ -33,7 +33,6 @@ layers:
   - road
   - bridge
   - admin
-  - country_label_line
   - country_label
   - marine_label
   - state_label
@@ -42,11 +41,12 @@ layers:
   - poi_label
   - road_label
   - waterway_label
+  - housenum_label
   - contour.label
 maxzoom: 22
 minzoom: 0
 name: Run, Bike, and Hike
-source: "mapbox:///mapbox.mapbox-terrain-v1,mapbox.mapbox-streets-v5"
+source: "mapbox:///mapbox.mapbox-terrain-v2,mapbox.mapbox-streets-v6"
 styles: 
   - vars.mss
   - bg.mss
