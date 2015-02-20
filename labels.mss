@@ -478,25 +478,33 @@
 // Road labels //
 ////////////////////////////////////////////////
 
-// Highway shields //
-#road_label[class='motorway'][zoom>=10][zoom<=20][reflen>0][reflen<=6] {
-  shield-name: "[ref]";
+// highway shield
+#road_label::shield-pt[class='motorway'][zoom>=7][zoom<=10][localrank=1][reflen<=6],
+#road_label::shield-pt[class='motorway'][zoom>=9][zoom<=10][localrank=1][reflen<=6],
+#road_label::shield-ln[zoom>=11][reflen<=6] {
+  shield-name: "[ref].replace('·', '\n')";
   shield-size: 9;
-  shield-face-name: @med;
-  shield-fill: @road_text;
-  shield-spacing: 200;
-  shield-avoid-edges: true;
-  shield-min-distance: 50;
-  shield-min-padding: 10;
-  shield-file: url('img/motorway/motorway_sm_[reflen].png');
-  [zoom>14] {
-    shield-spacing: 400;
-    shield-min-distance: 60;
+  shield-line-spacing: -4;
+  shield-file: url('img/shield/[shield]-[reflen].svg');
+  shield-face-name: @bold;
+  shield-fill: #333;
+  [zoom>=14] {
+    shield-transform: scale(1.25,1.25);
     shield-size: 11;
-    shield-file: url('img/motorway/motorway_lg_[reflen].png');
   }
-  [zoom>=16] { shield-fill: @road_text_high; }
 }
+#road_label::shield-pt[class='motorway'][zoom>=7][zoom<=10][localrank=1][reflen<=6],
+#road_label::shield-pt[class='motorway'][zoom>=9][zoom<=10][localrank=1][reflen<=6] {
+  shield-placement: point;
+  shield-avoid-edges: false;
+}
+#road_label::shield-ln[zoom>=11][reflen<=6] {
+  shield-placement: line;
+  shield-spacing: 400;
+  shield-min-distance: 20;
+  shield-avoid-edges: true;
+}
+
 // Larger roads //
 #road_label['mapnik::geometry_type'=2] {
   // Longer roads get a label earlier as they are likely to be more
