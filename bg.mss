@@ -127,62 +127,37 @@ Map {
 }
 
 ////////////////////////////////////////////////
-// Terrain //
+// Hillshading //
 ////////////////////////////////////////////////
 
-#hillshade [zoom<=18] {
-  ::low[zoom<=12],
-  ::1[zoom>=13][zoom<=14],
-  ::2[zoom=15],
-  ::3[zoom=16], 
-  ::4[zoom=17],
-  ::5[zoom=18]  {
+#hillshade {
+  ::0[zoom<=13],
+  ::1[zoom=14],
+  ::2[zoom>=15][zoom<=16],
+  ::3[zoom>=17][zoom<=18],
+  ::4[zoom>=19] {
+    comp-op: hard-light;
     polygon-clip: false;
-    [class='full_shadow'] {
-      polygon-fill: #000;
-      polygon-opacity: 0.05;
-      polygon-comp-op: multiply;   
-      [zoom>=6] { polygon-opacity:0.08; }
-      [zoom>=10] { polygon-opacity:0.1; } 
-      [zoom>=16] { polygon-opacity:0.07; } 
-      [zoom=17] { polygon-opacity:0.05; }
-      [zoom=18] { polygon-opacity:0.03; }  
+    image-filters-inflate: true;
+    [class='shadow'] {
+      polygon-fill: fadeout(#000,25);
+      polygon-opacity: 0.1;
+      [zoom>=15][zoom<=16] { polygon-opacity: 0.075; }
+      [zoom>=17][zoom<=18] { polygon-opacity: 0.05; }
+      [zoom>=18] { polygon-opacity: 0.025; }
     }
-    [class='medium_shadow'] {
-      polygon-fill: #000;
-      polygon-opacity: 0.05;
-      polygon-comp-op: multiply;     
-      [zoom>=6] { polygon-opacity:0.08; }     
-      [zoom>=10] { polygon-opacity:0.1; }  
-      [zoom>=15] { polygon-opacity:0.07; } 
-      [zoom>=16] { polygon-opacity:0.05; } 
-      [zoom=17] { polygon-opacity:0.04; }
-      [zoom=18] { polygon-opacity:0.03; }   
-    }
-    [class='medium_highlight'] {
-      polygon-fill:lighten(@yellow, 49);  
-      polygon-opacity: 0.3;  
-      [zoom>=6] { polygon-opacity:0.4; }     
-      [zoom>=10] { polygon-opacity:0.45; }    
-      [zoom>=16] { polygon-opacity:0.25; polygon-fill: #fff; } 
-      [zoom=17] { polygon-opacity:0.15; } 
-      [zoom=18] { polygon-opacity:0.05; }    
-    }
-    [class='full_highlight'] {  
-      polygon-fill: #fff;
-      polygon-opacity: 0.3; 
-      [zoom>=6] { polygon-opacity:0.35; }    
-      [zoom>=10] { polygon-opacity:0.4; } 
-      [zoom>=16] { polygon-opacity:0.25; } 
-      [zoom=17] { polygon-opacity:0.15; } 
-      [zoom=18] { polygon-opacity:0.05; }    
+    [class='highlight'] {
+      polygon-fill: fadeout(#fff,20);
+      polygon-opacity: 0.2;
+      [zoom>=15][zoom<=16] { polygon-opacity: 0.3; }
+      [zoom>=17][zoom<=18] { polygon-opacity: 0.2; }
+      [zoom>=18] { polygon-opacity: 0.1; }
     }
   }
-  ::1[zoom>=13][zoom<=14] { image-filters: agg-stack-blur(1,1); }
-  ::2[zoom=15] { image-filters: agg-stack-blur(4,4);  }
-  ::3[zoom=16] { image-filters: agg-stack-blur(8,8); }
-  ::4[zoom=17] { image-filters: agg-stack-blur(16,16); }
-  ::5[zoom=18] { image-filters: agg-stack-blur(32,32); }
+  ::1 { image-filters: agg-stack-blur(2,2); }
+  ::2 { image-filters: agg-stack-blur(4,4); }
+  ::3 { image-filters: agg-stack-blur(20,20); }
+  ::4 { image-filters: agg-stack-blur(20,20); }
 }
 
 #contour.line::line [zoom>=13] {
