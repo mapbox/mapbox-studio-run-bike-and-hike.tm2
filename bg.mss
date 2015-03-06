@@ -160,7 +160,7 @@ Map {
   ::4 { image-filters: agg-stack-blur(20,20); }
 }
 
-#contour.line::line [zoom>=13] {
+#contour::line [zoom>=13] {
   line-color: @gray-5;
   line-width: 0.15;
   [zoom>=15] { line-width: 0.2; }
@@ -171,7 +171,7 @@ Map {
   }
 }
 
-#contour.label::label {
+#contour::label {
   [index=10][zoom>=13] {
     text-name: "[ele]+'m'";
     text-face-name: @reg;
