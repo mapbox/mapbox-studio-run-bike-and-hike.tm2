@@ -17,6 +17,7 @@ Map {
     opacity:0.9;
     comp-op: screen;
     image-filters: agg-stack-blur(8,8);
+    image-filters-inflate: true;
   }
 }
 
