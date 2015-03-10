@@ -188,23 +188,23 @@
     [zoom>=10] { 
       text-size: 14;
       text-wrap-width: 120;  
-       }
+    }
     [zoom>=12] { 
       text-size: 20;
       text-wrap-width: 160;  
-      }
+    }
     [zoom>=14] { 
       text-fill: @town_text_high; 
       text-size: 26;
       text-wrap-width: 200;
-      }
+    }
     [zoom>=16] { 
       text-size: 28;
       text-wrap-width: 180;  
     }
   }
   [type='village'][zoom>=10][zoom<=18][localrank<=1],
-  [type='hamlet'][zoom>=12][zoom<=18][localrank<=1]  {
+  [type='hamlet'][zoom>=12][zoom<=18][localrank<=1] {
     text-name: @name;
     text-face-name: @reg;
     text-fill: @village_text;
@@ -216,34 +216,34 @@
     text-line-spacing: -8;
     text-wrap-before: true;
     [type='village'] {
-    [zoom>=12] { 
+      [zoom>=12] { 
         text-size: 18; 
         text-wrap-width: 180; 
-    }
-    [zoom>=14] { 
+      }
+      [zoom>=14] { 
         text-size: 20; 
         text-wrap-width: 200; 
-    }
-    [zoom>=16] {
+      }
+      [zoom>=16] {
         text-fill: @village_text_high;
         text-size: 24; 
         text-wrap-width: 240; 
-     }
-     [zoom>=18] {
+      }
+      [zoom>=18] {
         text-size: 26; 
         text-wrap-width: 250; 
       }
     }
     [type='hamlet'] {
-    [zoom>=12] { 
+      [zoom>=12] { 
         text-size: 16; 
         text-wrap-width: 160;
-    }
-    [zoom>=14] { 
+      }
+      [zoom>=14] { 
         text-size: 18; 
         text-wrap-width: 180; 
-     }
-     [zoom>=16] {
+      }
+      [zoom>=16] {
         text-fill: @village_text_high;
         text-size: 22; 
         text-wrap-width: 220; 
@@ -251,10 +251,9 @@
       [zoom>=18] {
         text-size: 24; 
         text-wrap-width: 240; 
-       }
+      }
     }
- }
-  
+  }
   [type='suburb'][zoom>=12][zoom<=17][localrank<=1],
   [type='neighbourhood'][zoom>=13][zoom<=17][localrank<=1] {
     text-name: @name;
@@ -281,16 +280,16 @@
     [type='neighbourhood'][zoom>=16] {
       text-size: 20; 
       text-wrap-width: 200;
-      }
-     [type='suburb'][zoom>=16],
-     [type='neighbourhood'][zoom>=17] {
-       text-size: 22; 
-       text-wrap-width: 220;
-     }
-     [type='suburb'][zoom>=17] {
-       text-size: 24; 
-       text-wrap-width: 240;
-      }
+    }
+    [type='suburb'][zoom>=16],
+    [type='neighbourhood'][zoom>=17] {
+      text-size: 22; 
+      text-wrap-width: 220;
+    }
+    [type='suburb'][zoom>=17] {
+      text-size: 24; 
+      text-wrap-width: 240;
+    }
     [zoom>=16] { text-fill:@neigh_text_high; }
   }
 }
@@ -502,24 +501,20 @@
 }
 
 // Smaller roads //
-#road_label['mapnik::geometry_type'=2]
-  [class!='motorway']
-  [class!='main']
-  [class!='street']
-  [class!='street_limited'] {
-    [len>750][zoom>=16],
-    [len>0][zoom>=17] {  
-      text-avoid-edges: true;
-      text-name: [name];
-      text-character-spacing: 0.25;
-      text-placement: line;
-      text-face-name: @reg;
-      text-fill: @road_text;
-      text-size: 11;
-      text-halo-fill: @road_halo;
-      text-halo-radius: 1;
-      text-halo-rasterizer: fast;
-      text-min-distance: 200; // only for labels w/ the same name
-      [zoom>=15] { text-fill: @road_text_high; }
-    }   
- }  
+#road_label['mapnik::geometry_type'=2][class!='motorway'][class!='main'][class!='street'][class!='street_limited'] {
+  [len>750][zoom>=16],
+  [len>0][zoom>=17] {  
+    text-avoid-edges: true;
+    text-name: [name];
+    text-character-spacing: 0.25;
+    text-placement: line;
+    text-face-name: @reg;
+    text-fill: @road_text;
+    text-size: 11;
+    text-halo-fill: @road_halo;
+    text-halo-radius: 1;
+    text-halo-rasterizer: fast;
+    text-min-distance: 200; // only for labels w/ the same name
+    [zoom>=15] { text-fill: @road_text_high; }
+  }   
+}

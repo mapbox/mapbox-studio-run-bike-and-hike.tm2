@@ -200,10 +200,8 @@
 // These are drawn on the actual road layers to ensure correct ordering
 // of arrows on bridges & tunnels.
 #road::fill,
-#road,
 #bridge::fill,
-#bridge,
-#tunnel {
+#tunnel::fill {
   ['mapnik::geometry_type'=2][zoom>=16][oneway=1] {
     [class='motorway_link'],
     [class='main'],

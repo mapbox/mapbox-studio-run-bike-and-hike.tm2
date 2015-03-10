@@ -2,16 +2,12 @@
 // POI //
 ////////////////////////////////////////////////
 
-//#poi_label[maki=''] { opacity:1; } // hack for mapnik#1952
-
 // Rail //
-#poi_label[type='Rail Station'][network=''] { opacity:1; } // hack for mapnik#1952
 
-// Note: != null condition is a workaround for mapnik#1952.
-#poi_label[type='Rail Station'][network!=null][scalerank=1][zoom>=14],
-#poi_label[type='Rail Station'][network!=null][scalerank=2][zoom>=15],
-#poi_label[type='Rail Station'][network!=null][scalerank=3][zoom>=16],
-#poi_label[type='Rail Station'][network!=null][scalerank=4][zoom>=17]{
+#poi_label[type='Rail Station'][scalerank=1][zoom>=14],
+#poi_label[type='Rail Station'][scalerank=2][zoom>=15],
+#poi_label[type='Rail Station'][scalerank=3][zoom>=16],
+#poi_label[type='Rail Station'][scalerank=4][zoom>=17]{
   marker-file: url("img/rail/[network]-12.svg");
   marker-height: 12;
   marker-allow-overlap: false;
@@ -120,32 +116,32 @@
     text-dy: 12; 
     text-wrap-width: 65;}
   [zoom>=19] { 
-      text-size: 13; 
-      text-dy: 13; 
-      text-wrap-width: 70;
-      marker-file: url("img/maki/triangle-stroked-18.svg");
+    text-size: 13; 
+    text-dy: 13; 
+    text-wrap-width: 70;
+    marker-file: url("img/maki/triangle-stroked-18.svg");
   }
 }
 
 // Parks //
-#poi_label [maki="park"] [scalerank<=4] {
+#poi_label [maki="park"][scalerank<=4] {
   [zoom<14],
   [zoom>=14][scalerank<=2][localrank<=1],
   [zoom>=16][scalerank<=3][localrank<=1],
   [zoom>=17][localrank<=4],
   [zoom>=18][localrank<=16],
   [zoom>=19] {
-  text-name: @name;
-  text-face-name: @blk; 
-  text-character-spacing: 0.5;  
-  text-fill: darken(@park_text,3);
-  text-size: 10;
-  text-halo-fill: @park_halo;
-  text-halo-radius: 1.5;
-  text-halo-rasterizer: fast;
-  text-wrap-width: 55;
-  text-line-spacing: -4;
-  [scalerank=1] {
+    text-name: @name;
+    text-face-name: @blk; 
+    text-character-spacing: 0.5;  
+    text-fill: darken(@park_text,3);
+    text-size: 10;
+    text-halo-fill: @park_halo;
+    text-halo-radius: 1.5;
+    text-halo-rasterizer: fast;
+    text-wrap-width: 55;
+    text-line-spacing: -4;
+    [scalerank=1] {
       [zoom>=15] { text-size: 11; text-wrap-width: 60; }
       [zoom>=16] { text-size: 12; text-wrap-width: 65; }
       [zoom>=17] { text-size: 14; text-wrap-width: 75; }
@@ -160,53 +156,52 @@
       [zoom>=17] { text-size: 11; text-wrap-width: 60; }
       [zoom>=19] { text-size: 12; text-wrap-width: 65; }
     }
-   } 
-  }
+  } 
+}
 
 // Other POIs
 
 // Scalerank <= 3
 #poi_label [maki!='park'][type!='Aerodrome'][type!='Rail Station'][type!='Peak'][scalerank<=3] {
-  //[zoom<14],
   [zoom>=14][scalerank=1][localrank<=1],
   [zoom>=15][scalerank<=2][localrank<=1],
   [zoom>=16][scalerank<=3][localrank<=1],
   [zoom>=19] {
-  text-name: @name;
-  text-face-name: @bold;  
-  text-fill: @poi_text;  
-  text-size: 9;
-  text-character-spacing: 0.5;  
-  text-halo-fill: @poi_halo;
-  text-halo-radius: 1.5;
-  text-halo-rasterizer: fast;
-  text-wrap-width: 50;
-  text-dy: 10; 
-  text-line-spacing: -4;
-  [scalerank=1] {
-    [zoom>=15] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
-    [zoom>=16] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
-    [zoom>=17] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
-    [zoom>=18] { text-size: 16; text-wrap-width: 85; text-dy: 16; }
-    [zoom>=19] { text-dy: 19; }
-  }
-  [scalerank=2] {
-    [zoom>=16] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
-    [zoom>=17] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
-    [zoom>=18] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
-    [zoom>=19] { text-dy: 17; }
-  }
-  [scalerank>=3] {
-    [zoom>=17] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
-    [zoom>=19] { text-size: 12; text-wrap-width: 65; text-dy: 15; }
-  }
-  marker-file: url("img/maki/[maki]-12.svg");
-  marker-fill: darken(@poi_text, 8);   
-  marker-line-color:@poi_halo;
-  marker-line-opacity:1;
-  [zoom>=19] { marker-file: url("img/maki/[maki]-18.svg"); } 
-  [maki='golf'],  
-  [maki='cemetery'] { 
+    text-name: @name;
+    text-face-name: @bold;  
+    text-fill: @poi_text;  
+    text-size: 9;
+    text-character-spacing: 0.5;  
+    text-halo-fill: @poi_halo;
+    text-halo-radius: 1.5;
+    text-halo-rasterizer: fast;
+    text-wrap-width: 50;
+    text-dy: 10; 
+    text-line-spacing: -4;
+    [scalerank=1] {
+      [zoom>=15] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
+      [zoom>=16] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
+      [zoom>=17] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
+      [zoom>=18] { text-size: 16; text-wrap-width: 85; text-dy: 16; }
+      [zoom>=19] { text-dy: 19; }
+    }
+    [scalerank=2] {
+      [zoom>=16] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
+      [zoom>=17] { text-size: 12; text-wrap-width: 65; text-dy: 12; }
+      [zoom>=18] { text-size: 14; text-wrap-width: 75; text-dy: 14; }
+      [zoom>=19] { text-dy: 17; }
+    }
+    [scalerank>=3] {
+      [zoom>=17] { text-size: 11; text-wrap-width: 60; text-dy: 11; }
+      [zoom>=19] { text-size: 12; text-wrap-width: 65; text-dy: 15; }
+    }
+    marker-file: url("img/maki/[maki]-12.svg");
+    marker-fill: darken(@poi_text, 8);   
+    marker-line-color:@poi_halo;
+    marker-line-opacity:1;
+    [zoom>=19] { marker-file: url("img/maki/[maki]-18.svg"); } 
+    [maki='golf'],  
+    [maki='cemetery'] { 
       text-fill: @park_text; 
       marker-fill: @park_text;
     }   
@@ -218,29 +213,29 @@
   [zoom>=17][localrank<=1],
   [zoom>=18][localrank<=8],
   [zoom>=19] {
-  text-name: @name;
-  text-face-name: @bold;  
-  text-fill: @poi_text;
-  text-size: 9;
-  text-character-spacing: 0.25;  
-  text-halo-fill: @poi_halo;
-  text-halo-radius: 1.5;
-  text-halo-rasterizer: fast;
-  text-wrap-width: 50;
-  text-line-spacing: -4;
-  text-dy: 9;  
-  [zoom>=17] { 
+    text-name: @name;
+    text-face-name: @bold;  
+    text-fill: @poi_text;
+    text-size: 9;
+    text-character-spacing: 0.25;  
+    text-halo-fill: @poi_halo;
+    text-halo-radius: 1.5;
+    text-halo-rasterizer: fast;
+    text-wrap-width: 50;
+    text-line-spacing: -4;
+    text-dy: 9;  
+    [zoom>=17] { 
       text-size: 10; 
       text-dy: 10; 
       text-wrap-width: 55;}
-  [zoom>=19] { 
+    [zoom>=19] { 
       text-size: 11; 
       text-dy: 14; 
       text-wrap-width: 60; 
-  }  
-  marker-file: url("img/maki/[maki]-12.svg");
-  [zoom>=19] { marker-file: url("img/maki/[maki]-18.svg"); }
-  marker-fill: darken(@poi_text, 3);
+    }  
+    marker-file: url("img/maki/[maki]-12.svg");
+    [zoom>=19] { marker-file: url("img/maki/[maki]-18.svg"); }
+    marker-fill: darken(@poi_text, 3);
   }
 }
 

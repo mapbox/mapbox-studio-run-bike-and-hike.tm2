@@ -7,16 +7,19 @@ Map {
 ////////////////////////////////////////////////
 
 #water {
-  polygon-fill: @water;
-  polygon-gamma: 0.5;
-  ::shadow {
+  ::dark {
+    polygon-fill: @water;
+    polygon-gamma: 0.5;
+    [zoom>12] { polygon-gamma: 0.75; }
+  }
+  ::light {
     polygon-fill: @water;
     opacity:0.9;
     comp-op: screen;
-    image-filters: agg-stack-blur(10,10);
+    image-filters: agg-stack-blur(8,8);
   }
-  [zoom>12] { polygon-gamma: 0.75; }
 }
+
 
 #waterway {
   [type='river'][zoom>=12],
@@ -54,7 +57,7 @@ Map {
 // Political boundaries //
 ////////////////////////////////////////////////
 
-#admin [maritime=0] {
+#admin[maritime=0] {
   line-join: round;
   line-color: @admin_2;
   // Countries
@@ -112,15 +115,15 @@ Map {
   ::2[zoom=15],
   ::3[zoom=16],
   ::4[zoom=17],
-  ::5[zoom>=18] { 
+  ::5[zoom>=18] {
     [class="wood"] { polygon-fill: @wooded; }
-    [class="scrub"] { polygon-fill: @scrub; } 
-    [class="grass"] { polygon-fill: @grass; } 
-    [class="crop"] { polygon-fill: @crop; } 
-    [class="snow"] { polygon-fill: @snow; }    
+    [class="scrub"] { polygon-fill: @scrub; }
+    [class="grass"] { polygon-fill: @grass; }
+    [class="crop"] { polygon-fill: @crop; }
+    [class="snow"] { polygon-fill: @snow; }
   }
  ::1[zoom>=13][zoom<=14] { image-filters: agg-stack-blur(1,1); }
- ::2[zoom=15] { image-filters: agg-stack-blur(4,4);  }
+ ::2[zoom=15] { image-filters: agg-stack-blur(4,4); }
  ::3[zoom=16] { image-filters: agg-stack-blur(8,8); }
  ::4[zoom=17] { image-filters: agg-stack-blur(16,16); }
  ::5[zoom>=18] { image-filters: agg-stack-blur(32,32); }
@@ -160,13 +163,13 @@ Map {
   ::4 { image-filters: agg-stack-blur(20,20); }
 }
 
-#contour::line [zoom>=13] {
+#contour::line[zoom>=13] {
   line-color: @gray-5;
   line-width: 0.15;
   [zoom>=15] { line-width: 0.2; }
   [zoom>=16] { line-opacity: 0.75; }
-  [index=10] { 
-    line-width: 0.3; 
+  [index=10] {
+    line-width: 0.3;
     [zoom>=15] { line-width: 0.4; }
   }
 }
@@ -195,15 +198,15 @@ Map {
 #landuse {
   ::greenery {
     [class='wood'] { polygon-fill: @wooded; }
-      [class='scrub'] { polygon-fill: @scrub; }
-      [class='grass'] { polygon-fill: @grass }
-      [class='wood'],[class='scrub'],[class='grass'] {
-        polygon-opacity: 0.7;  
-        [zoom=7] { polygon-opacity: 0.2; }
-        [zoom=8] { polygon-opacity: 0.5; }   
-      }
+    [class='scrub'] { polygon-fill: @scrub; }
+    [class='grass'] { polygon-fill: @grass }
+    [class='wood'],[class='scrub'],[class='grass'] {
+      polygon-opacity: 0.7;
+      [zoom=7] { polygon-opacity: 0.2; }
+      [zoom=8] { polygon-opacity: 0.5; }
     }
- }
+  }
+}
 
 // Parks //
 #landuse {
@@ -216,8 +219,8 @@ Map {
 }
 
 // Pitches //
-  // Low zoom
- #landuse {
+// Low zoom
+#landuse {
   [class='pitch'][zoom<=17] {
     polygon-fill: @park;
     line-color: lighten(@park, 10);
@@ -225,25 +228,25 @@ Map {
     [zoom=17] { line-width: 1.5; }
   }
 }
-  // High zoom
- #landuse {
+// High zoom
+#landuse {
   [class='pitch'][zoom>=18] {
-    ::wall {
-    line-color: lighten(@park, 10);
-    line-width: 3;
-    line-join: round;
-    line-cap: round;
-    polygon-fill: lighten(@park, 10);
-  }    
-    ::roof {
+    ::shadow {
+      line-color: lighten(@park, 10);
+      line-width: 3;
+      line-join: round;
+      line-cap: round;
+      polygon-fill: lighten(@park, 10);
+    }
+    ::main {
       polygon-fill: @park;
       polygon-geometry-transform: translate(-2,-2);
       polygon-clip: false;
       [zoom>=15] {  
-      line-width: 1;
-      line-color: lighten(@park, 10);
-      line-geometry-transform:translate(-2,-2);
-      line-clip:false;
+        line-width: 1;
+        line-color: lighten(@park, 10);
+        line-geometry-transform:translate(-2,-2);
+        line-clip:false;
       }
     }   
   }
@@ -327,7 +330,7 @@ Map {
 // Buildings //
 ////////////////////////////////////////////////
 
-#building [zoom>=16][zoom<=17] {
+#building[zoom>=16][zoom<=17] {
   polygon-fill: @building;
   line-color: @building_line;
   line-width: 0.5;
@@ -338,28 +341,28 @@ Map {
   }
 }
 
-#building [zoom>=18]{
-::wall {
-  line-color:@building_line;
-  line-width:3;
-  line-join:round;
-  line-cap:round;
-  polygon-fill:@building_line; 
-  }
-::roof {
-  polygon-fill: @building;
-  polygon-geometry-transform: translate(-0.5,-0.5);
-  polygon-clip:false;
-  [zoom>=15] {  
-    line-width: 1;
-    line-color: @building_line;
-    line-geometry-transform: translate(-0.5,-0.5);
-    line-clip: false;
-  }
-  [zoom>=19] { 
-    polygon-geometry-transform: translate(-1,-1);
-    line-width: 1.5;  
-    line-geometry-transform: translate(-1,-1);  
+#building[zoom>=18] {
+  ::wall {
+    line-color:@building_line;
+    line-width:3;
+    line-join:round;
+    line-cap:round;
+    polygon-fill:@building_line;
+    }
+  ::roof {
+    polygon-fill: @building;
+    polygon-geometry-transform: translate(-0.5,-0.5);
+    polygon-clip:false;
+    [zoom>=15] {
+      line-width: 1;
+      line-color: @building_line;
+      line-geometry-transform: translate(-0.5,-0.5);
+      line-clip: false;
+    }
+    [zoom>=19] {
+      polygon-geometry-transform: translate(-1,-1);
+      line-width: 1.5;
+      line-geometry-transform: translate(-1,-1);
     }   
   }
 }
@@ -369,15 +372,15 @@ Map {
 ////////////////////////////////////////////////
 
 // Hedges
-  // Low zoom
-#barrier_line [class='hedge'][zoom>=16][zoom<=17] {
+// Low zoom
+#barrier_line[class='hedge'][zoom>=16][zoom<=17] {
   line-color: darken(@park, 10);
   line-width: 1;
   line-join: round;
   line-cap: round;
 }
-  // High zoom
-#barrier_line [class='hedge'][zoom>=18] {
+// High zoom
+#barrier_line[class='hedge'][zoom>=18] {
   ::shadow {
     line-color: darken(@park, 7);
     line-width: 2;
@@ -397,16 +400,16 @@ Map {
 }
 
 // Fences
-  // Low zoom
-#barrier_line [class='fence'][zoom>=16] {
+// Low zoom
+#barrier_line[class='fence'][zoom>=16] {
   line-color: @fence;
   line-width: 0.5;
   line-join: round;
   line-cap: round;
   [zoom>=17] { line-width: 1; }
 }
-   // High zoom
-#barrier_line [class='fence'][zoom>=18] {
+// High zoom
+#barrier_line[class='fence'][zoom>=18] {
   ::shadow {
     line-color: @fence;
     line-width: 1;
@@ -423,8 +426,8 @@ Map {
 }
 
 // Gate
-  // Low zoom
-#barrier_line [class='gate'][zoom>=17] {
+// Low zoom
+#barrier_line[class='gate'][zoom>=17] {
   line-color: @gate;
   line-width: 1;
   line-join: round;

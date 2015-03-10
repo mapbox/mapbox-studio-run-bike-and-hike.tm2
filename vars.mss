@@ -28,7 +28,6 @@
 @blue_lt: lighten(@blue,10);
 @yellow: #fcf302;
 @blue-gray: desaturate(@blue, 40);
-//@green: #05E29E;
 @green: #05e24e;
 @green-desat: desaturate(lighten(@green, 30), 45);
 
@@ -119,5 +118,3 @@
 @admin_2_hi2: darken(@admin_2, 25);
 @admin_3: darken(@admin_2, 15);
 @admin_3_hi: darken(@admin_2, 25);
-
-
