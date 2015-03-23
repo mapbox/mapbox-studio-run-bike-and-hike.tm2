@@ -79,9 +79,13 @@
 
 // Adds casings to bridges
 #bridge::casing {
-  ['mapnik::geometry_type'=2]
-    [class!='motorway'][class!='motorway_link']
-    [class!='major_rail'][class!='minor_rail'] {
+  ['mapnik::geometry_type'=2] {
+    [class='main'],
+    [class='street'][zoom>=12],
+    [class='street_limited'][zoom>=12],
+    [class='path'],
+    [class='service'],
+    [class='driveway'] {
       line-color: @land;
       line-width: 0.5 + 2;
       line-join: round;
@@ -126,16 +130,21 @@
      [class='driveway'][zoom>=10] { 
        [zoom>=17] { line-width: 2; }
        [zoom>=18] { line-width: 3; }
-     } 
+      } 
+    }  
   }
 }
 
 #road,
 #tunnel,
 #bridge {
-  ['mapnik::geometry_type'=2]
-    [class!='motorway'][class!='motorway_link']
-    [class!='major_rail'][class!='minor_rail'] {
+  ['mapnik::geometry_type'=2] {
+    [class='main'],
+    [class='street'][zoom>=12],
+    [class='street_limited'][zoom>=12],
+    [class='path'],
+    [class='service'],
+    [class='driveway'] {
     line-color: #fff;
     line-width: 0.5;
     line-cap: round;
@@ -191,6 +200,7 @@
      f/polygon-fill: #fff;
      f/polygon-opacity: 0.5; 
     }
+  }  
 }
 
 ////////////////////////////////////////////////
