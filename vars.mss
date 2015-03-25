@@ -37,8 +37,10 @@
 @water: desaturate(@blue, 45);
 @land: @gray-2;
 //@park: @green-desat;
-@park: desaturate(lighten(@green, 0), 0);
+@park: @green;
+@park-opaque: @green-desat;
 @sand: mix(@yellow, @land, 15);
+//@sand: @yellow;
 @snow: lighten(desaturate(@blue, 45), 35);
 
 // All these variables are based off of core landuse colors
@@ -52,8 +54,9 @@
 @school:            darken(@land,4);
 @industrial:        darken(@land, 5);
 @aeroway:           lighten(@land,4);
-@glacier:           darken(@snow, 10);
+@glacier:           darken(saturate(@snow, 80), 20);
 @parking: lighten(@building, 1); // temp, need to change
+@rock:              @gray-5;
 
 @building:          @land;
 @building_line:     @gray-3;
@@ -109,7 +112,7 @@
 @poi_halo: fadeout(#fff, 95);
 @peak_text: @gray-5;
 @peak_halo: park_halo;
-@park_text: darken(@park, 40);
+@park_text: darken(@green-desat, 40);
 @park_halo: fadeout(#fff, 70);
 @transport_text: @gray-5;
 @transport_halo: fadeout(#fff, 90);

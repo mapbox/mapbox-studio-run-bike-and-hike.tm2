@@ -151,7 +151,7 @@
     text-halo-radius: 2;
     text-halo-rasterizer: fast;
     text-size: 16;
-    text-line-spacing: -8;
+    text-line-spacing: -6;
     text-wrap-width: 160;
     text-wrap-before: true;
     [zoom>=9] { 
@@ -182,7 +182,7 @@
     text-halo-radius: 2;
     text-halo-rasterizer: fast;
     text-size: 12;
-    text-line-spacing: -8;
+    text-line-spacing: -6;
     text-wrap-width: 100;
     text-wrap-before: true;
     [zoom>=10] { 
@@ -213,7 +213,7 @@
     text-halo-rasterizer: fast;
     text-size: 12;
     text-wrap-width: 100;
-    text-line-spacing: -8;
+    text-line-spacing: -6;
     text-wrap-before: true;
     [type='village'] {
       [zoom>=12] { 
