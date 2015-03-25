@@ -151,11 +151,12 @@ Map {
       [zoom>=18] { polygon-opacity: 0.025; }
     }
     [class='highlight'] {
-      polygon-fill: fadeout(#fff,20);
-      polygon-opacity: 0.2;
-      [zoom>=15][zoom<=16] { polygon-opacity: 0.3; }
-      [zoom>=17][zoom<=18] { polygon-opacity: 0.2; }
-      [zoom>=18] { polygon-opacity: 0.1; }
+      //polygon-fill: fadeout(#fff,20);
+      polygon-fill: #fff;
+      polygon-opacity: 0.5;
+      [zoom>=15][zoom<=16] { polygon-opacity: 0.4; }
+      [zoom>=17][zoom<=18] { polygon-opacity: 0.3; }
+      [zoom>=18] { polygon-opacity: 0.2; }
     }
   }
   ::1 { image-filters: agg-stack-blur(2,2); }
@@ -198,13 +199,14 @@ Map {
 // Woods and scrubs //
 #landuse {
   ::greenery {
-    [class='wood'] { polygon-fill: @wooded; }
-    [class='scrub'] { polygon-fill: @scrub; }
-    [class='grass'] { polygon-fill: @grass }
+    [class='wood'] { polygon-fill: @wooded2; }
+    [class='scrub'] { polygon-fill: @scrub2; }
+    [class='grass'] { polygon-fill: @grass2 }
     [class='wood'],[class='scrub'],[class='grass'] {
-      polygon-opacity: 0.7;
-      [zoom=7] { polygon-opacity: 0.2; }
-      [zoom=8] { polygon-opacity: 0.5; }
+      //polygon-opacity: 0.7;
+      polygon-opacity: 0.15;
+      [zoom=7] { polygon-opacity: 0.05; }
+      [zoom=8] { polygon-opacity: 0.1; }
     }
   }
 }
@@ -213,11 +215,14 @@ Map {
 #landuse {
   [class='park'] { 
     polygon-fill: @park;
-    [zoom=7] { polygon-opacity: 0.2; }
-    [zoom=8] { polygon-opacity: 0.5; }
-    [zoom=9] { polygon-opacity: 0.9; }
+    //polygon-comp-op: color;
+    [zoom<=7] { polygon-opacity: 0.1; }
+    [zoom=8] { polygon-opacity: 0.15; }
+    [zoom=9] { polygon-opacity: 0.2; }
+    [zoom>=10] {polygon-opacity: 0.15; }
   }
 }
+
 
 // Pitches //
 // Low zoom

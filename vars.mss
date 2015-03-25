@@ -36,13 +36,16 @@
 // Core landuse colors
 @water: desaturate(@blue, 45);
 @land: @gray-2;
-@park: @green-desat;
+//@park: @green-desat;
+@park: desaturate(lighten(@green, 0), 0);
 @sand: mix(@yellow, @land, 15);
 @snow: lighten(desaturate(@blue, 45), 35);
 
 // All these variables are based off of core landuse colors
 @cemetery:          mix(@park, @building, 30);
-@wooded:            mix(@sand,@park, 30);
+//@wooded:            mix(@sand,@park, 30);
+@wooded:            mix(@sand, @green-desat, 30);
+//@wooded:            mix(@sand, desaturate(@park, 20), 50);
 @pitch:             @park;
 @sports:            @park;
 @hospital:          darken(@land,3);
@@ -65,6 +68,11 @@
 @grass: lighten(@wooded, 6);
 @crop: lighten(@wooded, 9);
 @snow: @snow;
+
+// Landuse //
+@wooded2: mix(@sand,@park, 40);
+@grass2: lighten(@wooded2, 6);
+@scrub2: lighten(@wooded2, 9);
 
 // Road colors //
 @rail:              lighten(@gray-3, 2);
