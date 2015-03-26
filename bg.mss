@@ -58,41 +58,20 @@ Map {
 // Political boundaries //
 ////////////////////////////////////////////////
 
-#admin[maritime=0] {
+#admin[maritime=0][zoom>=2] {
   line-join: round;
   line-color: @admin_2;
-  // Countries
-  ::lev2outline[admin_level=2][zoom>=2] {
-    line-join: round;
-    line-width: 1 + 1;
-    line-color: #fff;
-    [zoom>=5] { line-width: 2 + 1; }
-    [zoom>=6] { line-width: 2.5 + 1; }
-    [zoom>=8] { line-width: 3 + 2; }
-    [disputed=1] { line-dasharray: 4,4; }
-    }
-  ::lev2[admin_level=2] {
-    line-join: round;
-    line-cap: round;
-    line-width: 1;
-    line-color: @admin_2;
-    [zoom>=4] { line-color: @admin_2_hi; }
-    [zoom>=5] { line-width: 2; }
-    [zoom>=6] { line-width: 2.5; }
-    [zoom>=8] { line-width: 3; }
-    [disputed=1] { line-dasharray: 4,4; }
-  }
   // States / Provices / Subregions
    ::lev3outline[admin_level>=3] {
-    line-color: @land;
+    line-color: lighten(@land, 5);
     line-join: round;
     line-cap: round;
     line-width: 0.2 + 1;
     [zoom=4] { line-width: 0.4 + 1; }
-    [zoom=5] { line-width: 0.6 + 1; }
-    [zoom>=6] { line-width: 1 + 1; }
-    [zoom>=7] { line-width: 1.5 + 1; }
-    [zoom>=12] { line-width: 2 + 1; }
+    [zoom=5] { line-width: 0.6 + 1.5; }
+    [zoom>=6] { line-width: 1 + 1.5; }
+    [zoom>=7] { line-width: 1.5 + 2; }
+    [zoom>=12] { line-width: 2 + 2; }
   }
   ::lev3[admin_level>=3] {
     line-color: @admin_3;
@@ -104,6 +83,28 @@ Map {
     [zoom>=7] { line-width: 1.5; }
     [zoom>=9] { line-color: @admin_3_hi; }
     [zoom>=12] { line-width: 2; }
+  }
+  // Countries
+  ::lev2outline[admin_level=2][zoom>=2] {
+    line-join: round;
+    line-cap: round;
+    line-width: 1 + 1.5;
+    line-color: #fff;
+    [zoom>=5] { line-width: 1.5 + 2; }
+    [zoom>=6] { line-width: 2 + 2; }
+    [zoom>=8] { line-width: 3 + 2.5; }
+    [disputed=1] { line-dasharray: 4,4; }
+    }
+  ::lev2[admin_level=2] {
+    line-join: round;
+    line-cap: round;
+    line-width: 1;
+    line-color: @admin_2;
+    [zoom>=4] { line-color: @admin_2_hi; }
+    [zoom>=5] { line-width: 1.5; }
+    [zoom>=6] { line-width: 2; }
+    [zoom>=8] { line-width: 3; }
+    [disputed=1] { line-dasharray: 4,4; }
   }
 }
 
@@ -146,8 +147,9 @@ Map {
     image-filters-inflate: true;
     [class='shadow'] {
       polygon-fill: fadeout(#000,25);
-      polygon-opacity: 0.1;
       polygon-comp-op: multiply;
+      polygon-opacity: 0.07;
+      [zoom>=10] { polygon-opacity: 0.1; }
       [zoom>=15][zoom<=16] { polygon-opacity: 0.075; }
       [zoom>=17][zoom<=18] { polygon-opacity: 0.05; }
       [zoom>=18] { polygon-opacity: 0.025; }

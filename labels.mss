@@ -79,6 +79,7 @@
   }
 }
 
+/*
 // City dots – version with markers as text
 #place_label::citydots[type='city'][zoom>=4][zoom<=7][localrank<=1] {
  [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
@@ -140,6 +141,50 @@
     text-halo-radius: 2;
     text-halo-rasterizer: fast;  
     }
+}
+*/
+
+// City labels with dots for low zoom levels.
+// The separate attachment keeps the size of the XML down.
+#place_label::citydots[zoom>=4][zoom<=7][type='city'][localrank<=2] {
+  // explicitly defining all the `ldir` values wer'e going
+  // to use shaves a bit off the final project.xml size
+  [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
+  [ldir='NE'],[ldir='SE'],[ldir='SW'],[ldir='NW'] {
+    shield-file: url("img/icon/dot.svg");
+    shield-unlock-image: true;
+    shield-name: @name;
+    shield-face-name: @reg;
+    shield-placement: point;
+    shield-fill: @city_text;
+    shield-halo-fill: @city_halo;
+    shield-halo-radius: 2;
+    shield-halo-rasterizer: fast;
+    shield-wrap-width: 80;
+    shield-line-spacing: -4;
+    shield-size: 16;
+    [zoom>=5] {
+      [scalerank>=0][scalerank<=2] { shield-size: 16; }
+      [scalerank>=3][scalerank<=5] { shield-size: 14; }
+    }
+    [zoom>=6] {
+      [scalerank>=0][scalerank<=2] { shield-size: 16; }
+      [scalerank>=3][scalerank<=5] { shield-size: 15; }
+    }
+    [zoom=7] {
+      [scalerank>=0][scalerank<=2] { shield-size: 16; }
+      [scalerank>=3][scalerank<=5] { shield-size: 16; }
+      [scalerank>=6] { shield-size: 14; }
+    }
+    [ldir='E'] { shield-text-dx: 5; }
+    [ldir='W'] { shield-text-dx: -5; }
+    [ldir='N'] { shield-text-dy: -6; }
+    [ldir='S'] { shield-text-dy: 6; }
+    [ldir='NE'] { shield-text-dx: 4; shield-text-dy: -3; }
+    [ldir='SE'] { shield-text-dx: 4; shield-text-dy: 5; }
+    [ldir='SW'] { shield-text-dx: -3; shield-text-dy: 3; }
+    [ldir='NW'] { shield-text-dx: -4; shield-text-dy: -3; }
+  }
 }
 
 #place_label {

@@ -87,11 +87,13 @@
 @place_halo: fadeout(@land, 90);
 
 @country_text: @black;
-@country_text_high: @gray-4;
+@country_text_high: darken(@land, 40);
+//@country_text_high: @gray-4;
 @country_halo: fadeout(#fff, 90);
 
 @state_text:@gray-5;
-@state_halo: fadeout( @gray-2, 40);
+@state_halo: fadeout(@gray-1, 40);
+//@state_halo: fadeout( @gray-2, 40);
 
 @city_text: @black;
 @city_text_high:@gray-4;
