@@ -291,7 +291,7 @@
     text-size: 9;
     text-wrap-width: 40;
     text-wrap-before: true;
-    text-halo-fill: fadeout(@land, 5);//fadeout(#fff, 25);
+    text-halo-fill: fadeout(@land, 5);
     text-halo-radius: 1.5;
     text-halo-rasterizer: fast;
   }

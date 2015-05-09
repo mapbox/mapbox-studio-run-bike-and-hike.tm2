@@ -21,7 +21,6 @@ Map {
   }
 }
 
-
 #waterway {
   [type='river'][zoom>=12],
   [type='canal'][zoom>=12] {
@@ -144,7 +143,6 @@ Map {
   ::3[zoom=16],
   ::4[zoom>=17][zoom<=18],
   ::5[zoom>=19] {
-    //comp-op: hard-light;
     polygon-clip: false;
     image-filters-inflate: true;
     [class='shadow'] {
@@ -233,7 +231,6 @@ Map {
 #landuse {
   [class='pitch'][zoom<=17] {
     polygon-fill: @park-opaque;
-    //polygon-opacity: 0.15;
     line-color: lighten(@park-opaque, 10);
     line-width: 1;
     [zoom=17] { line-width: 1.5; }

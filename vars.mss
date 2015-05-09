@@ -36,18 +36,14 @@
 // Core landuse colors
 @water: desaturate(@blue, 45);
 @land: @gray-2;
-//@park: @green-desat;
 @park: @green;
 @park-opaque: @green-desat;
 @sand: saturate(mix(@yellow, @land, 15), 10);
-//@sand: @yellow;
 @snow: lighten(desaturate(@blue, 45), 35);
 
 // All these variables are based off of core landuse colors
 @cemetery:          mix(@park, @building, 30);
-//@wooded:            mix(@sand,@park, 30);
 @wooded:            mix(@sand, @green-desat, 30);
-//@wooded:            mix(@sand, desaturate(@park, 20), 50);
 @pitch:             @park;
 @sports:            @park;
 @hospital:          darken(@land,6);
@@ -88,12 +84,10 @@
 
 @country_text: @black;
 @country_text_high: darken(@land, 40);
-//@country_text_high: @gray-4;
 @country_halo: fadeout(#fff, 90);
 
 @state_text:@gray-5;
 @state_halo: fadeout(@gray-1, 40);
-//@state_halo: fadeout( @gray-2, 40);
 
 @city_text: @black;
 @city_text_high:@gray-4;
