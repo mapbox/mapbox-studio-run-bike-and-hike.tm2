@@ -125,7 +125,7 @@
 
 // Parks //
 #poi_label [maki="park"][scalerank<=4] {
-  [zoom<14],
+  [zoom>5][zoom<14],
   [zoom>=14][scalerank<=2][localrank<=1],
   [zoom>=16][scalerank<=3][localrank<=1],
   [zoom>=17][localrank<=4],

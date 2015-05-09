@@ -79,71 +79,51 @@
   }
 }
 
-// City dots – version with markers as text
-#place_label::citydots[type='city'][zoom>=4][zoom<=7][localrank<=1] {
- [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
- [ldir='NE'],[ldir='SE'],[ldir='SW'],[ldir='NW'] {
+// City labels with dots for low zoom levels.
+// The separate attachment keeps the size of the XML down.
+#place_label::citydots[zoom>=4][zoom<=7][type='city'][localrank<=2] {
   // explicitly defining all the `ldir` values wer'e going
   // to use shaves a bit off the final project.xml size
- [ldir='E'] {
-      text-name: '∘ ' + [name_en];
-      text-horizontal-alignment: right; 
-      }
-    [ldir='W'] {
-      text-name: [name_en] + ' ∘';
-      text-horizontal-alignment: left; 
-      }
-    [ldir='S'] { 
-      text-name: '∘\n' + [name_en];
-      text-line-spacing: -10;
-      text-vertical-alignment: bottom;
-      } 
-     [ldir='N'] {
-      text-name: [name_en] + '\n∘';
-      text-line-spacing: -10;
-      text-vertical-alignment: top;
-      }
-    [ldir='SE'] {
-      text-name: '∘\n  ' + [name_en];
-      text-line-spacing: -15;
-      text-vertical-alignment: bottom;
-      text-horizontal-alignment: right;
-      text-align: left;
-      }
-    [ldir='SW'] {
-      text-name: '∘\n' + [name_en] + '  ';
-      text-line-spacing: -16;
-      text-vertical-alignment: bottom;
-      text-horizontal-alignment: left;
-      text-align: right;
-      }
-     [ldir='NE'] {
-      text-name: '  ' + [name_en] + '\n∘';
-      text-line-spacing: -16;
-      text-vertical-alignment: top;
-      text-horizontal-alignment: right;
-      text-align: left;
-      }
-    [ldir='NW'] {
-      text-name: [name_en] + '  \n∘';
-      text-line-spacing: -15;
-      text-vertical-alignment: top;
-      text-horizontal-alignment: left;
-      text-align: right;
-      }
-    text-name: @name;
-    text-size: 16;
-    text-face-name: @reg;
-    text-placement: point;
-    text-fill: @city_text;
-    text-halo-fill: @city_halo;
-    text-halo-radius: 2;
-    text-halo-rasterizer: fast;  
+  [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
+  [ldir='NE'],[ldir='SE'],[ldir='SW'],[ldir='NW'] {
+    shield-file: url("img/icon/dot-6.svg");
+    shield-unlock-image: true;
+    shield-name: @name;
+    shield-face-name: @reg;
+    shield-placement: point;
+    shield-fill: @city_text;
+    shield-halo-fill: @city_halo;
+    shield-halo-radius: 2;
+    shield-halo-rasterizer: fast;
+    shield-wrap-width: 80;
+    shield-line-spacing: -4;
+    shield-size: 16;
+    [zoom>=5] {
+      [scalerank>=0][scalerank<=2] { shield-size: 16; }
+      [scalerank>=3][scalerank<=5] { shield-size: 14; }
     }
+    [zoom>=6] {
+      [scalerank>=0][scalerank<=2] { shield-size: 16; }
+      [scalerank>=3][scalerank<=5] { shield-size: 15; }
+    }
+    [zoom=7] {
+      [scalerank>=0][scalerank<=2] { shield-size: 16; }
+      [scalerank>=3][scalerank<=5] { shield-size: 16; }
+      [scalerank>=6] { shield-size: 14; }
+    }
+    [ldir='E'] { shield-text-dx: 5; }
+    [ldir='W'] { shield-text-dx: -5; }
+    [ldir='N'] { shield-text-dy: -6; }
+    [ldir='S'] { shield-text-dy: 6; }
+    [ldir='NE'] { shield-text-dx: 4; shield-text-dy: -3; }
+    [ldir='SE'] { shield-text-dx: 4; shield-text-dy: 5; }
+    [ldir='SW'] { shield-text-dx: -3; shield-text-dy: 3; }
+    [ldir='NW'] { shield-text-dx: -4; shield-text-dy: -3; }
+  }
 }
 
 #place_label {
-  [type='city'][zoom>=8][zoom<=15][localrank=1] {
+  [type='city'][zoom>=8][zoom<=15][localrank<=2] {
     text-name: @name;
     text-face-name: @reg;
     text-fill: @city_text;
@@ -151,7 +131,7 @@
     text-halo-radius: 2;
     text-halo-rasterizer: fast;
     text-size: 16;
-    text-line-spacing: -8;
+    text-line-spacing: -6;
     text-wrap-width: 160;
     text-wrap-before: true;
     [zoom>=9] { 
@@ -174,7 +154,7 @@
   }
 
 #place_label {  
-  [type='town'][zoom>=8][zoom<=17][localrank<=1] {
+  [type='town'][zoom>=8][zoom<=17][localrank<=2] {
     text-name: @name;
     text-face-name: @reg;
     text-fill: @town_text;
@@ -182,7 +162,7 @@
     text-halo-radius: 2;
     text-halo-rasterizer: fast;
     text-size: 12;
-    text-line-spacing: -8;
+    text-line-spacing: -6;
     text-wrap-width: 100;
     text-wrap-before: true;
     [zoom>=10] { 
@@ -213,7 +193,7 @@
     text-halo-rasterizer: fast;
     text-size: 12;
     text-wrap-width: 100;
-    text-line-spacing: -8;
+    text-line-spacing: -6;
     text-wrap-before: true;
     [type='village'] {
       [zoom>=12] { 
@@ -311,7 +291,7 @@
     text-size: 9;
     text-wrap-width: 40;
     text-wrap-before: true;
-    text-halo-fill: fadeout(@land, 5);//fadeout(#fff, 25);
+    text-halo-fill: fadeout(@land, 5);
     text-halo-radius: 1.5;
     text-halo-rasterizer: fast;
   }
@@ -424,30 +404,31 @@
 ////////////////////////////////////////////////
 
 // highway shield
-#road_label::shield-pt[class='motorway'][zoom>=7][zoom<=10][localrank=1][reflen<=6],
-#road_label::shield-pt[class='motorway'][zoom>=9][zoom<=10][localrank=1][reflen<=6],
+#road_label::shield-pt[class='motorway'][zoom>=8][zoom<=10][localrank=1][reflen<=6],
+#road_label::shield-pt[class='motorway'][zoom>=10][zoom<=10][localrank=1][reflen<=6],
 #road_label::shield-ln[zoom>=11][reflen<=6] {
   shield-name: "[ref].replace('·', '\n')";
-  shield-size: 9;
+  shield-size: 8;
   shield-line-spacing: -4;
   shield-file: url('img/shield/[shield]-[reflen].svg');
   shield-face-name: @bold;
-  shield-fill: #333;
+  shield-fill: @road_text;
   [zoom>=14] {
     shield-transform: scale(1.25,1.25);
-    shield-size: 11;
+    shield-size: 10;
   }
 }
-#road_label::shield-pt[class='motorway'][zoom>=7][zoom<=10][localrank=1][reflen<=6],
-#road_label::shield-pt[class='motorway'][zoom>=9][zoom<=10][localrank=1][reflen<=6] {
+#road_label::shield-pt[class='motorway'][zoom>=8][zoom<=10][localrank=1][reflen<=6],
+#road_label::shield-pt[class='motorway'][zoom>=10][zoom<=10][localrank=1][reflen<=6] {
   shield-placement: point;
   shield-avoid-edges: false;
 }
 #road_label::shield-ln[zoom>=11][reflen<=6] {
   shield-placement: line;
   shield-spacing: 400;
-  shield-min-distance: 20;
   shield-avoid-edges: true;
+  [class='motorway'] { shield-margin: 80; }
+  [class='main'] { shield-margin: 120; }
 }
 
 // Larger roads //
@@ -467,7 +448,7 @@
   [class='street'][zoom>=16],
   [class='street_limited'][zoom>=16] {
     text-avoid-edges: true;
-    text-name: [name];
+    text-name: @name;
     text-character-spacing: 0.25;
     text-placement: line;
     text-face-name: @reg;
@@ -505,7 +486,7 @@
   [len>750][zoom>=16],
   [len>0][zoom>=17] {  
     text-avoid-edges: true;
-    text-name: [name];
+    text-name: @name;
     text-character-spacing: 0.25;
     text-placement: line;
     text-face-name: @reg;

@@ -80,12 +80,12 @@
        y="1622.3622" />
     <path
        inkscape:connector-curvature="0"
-       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;enable-background:accumulate"
+       style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ffffff;fill-opacity:1;fill-rule:evenodd;stroke:#CCCCCC;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;marker:none;enable-background:accumulate"
        id="path4616"
        d="m 1312.5,1623.8622 0,7 c 0,8 9.328,10.582 11,11 1.6168,-0.4042 11.0776,-3.7694 11,-11 l 0,-7 z"
        sodipodi:nodetypes="cccccc" />
     <path
-       style="fill:none;fill-rule:evenodd;stroke:#4d4d4d;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#CCCCCC;stroke-width:1px;stroke-linecap:round;stroke-linejoin:round;stroke-opacity:1"
        d="m 1313,1626.8622 21,0"
        id="path5547"
        inkscape:connector-curvature="0"

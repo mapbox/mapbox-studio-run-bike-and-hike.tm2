@@ -36,21 +36,23 @@
 // Core landuse colors
 @water: desaturate(@blue, 45);
 @land: @gray-2;
-@park: @green-desat;
-@sand: mix(@yellow, @land, 15);
+@park: @green;
+@park-opaque: @green-desat;
+@sand: saturate(mix(@yellow, @land, 15), 10);
 @snow: lighten(desaturate(@blue, 45), 35);
 
 // All these variables are based off of core landuse colors
 @cemetery:          mix(@park, @building, 30);
-@wooded:            mix(@sand,@park, 30);
+@wooded:            mix(@sand, @green-desat, 30);
 @pitch:             @park;
 @sports:            @park;
-@hospital:          darken(@land,3);
-@school:            darken(@land,4);
-@industrial:        darken(@land, 5);
+@hospital:          darken(@land,6);
+@school:            darken(@land,8);
+@industrial:        darken(@land, 10);
 @aeroway:           lighten(@land,4);
-@glacier:           darken(@snow, 10);
+@glacier:           darken(saturate(@snow, 80), 20);
 @parking: lighten(@building, 1); // temp, need to change
+@rock:              @gray-5;
 
 @building:          @land;
 @building_line:     @gray-3;
@@ -66,6 +68,11 @@
 @crop: lighten(@wooded, 9);
 @snow: @snow;
 
+// Landuse //
+@wooded2: mix(@sand,@park, 40);
+@grass2: lighten(@wooded2, 6);
+@scrub2: lighten(@wooded2, 9);
+
 // Road colors //
 @rail:              lighten(@gray-3, 2);
 @motorway_fill:     lighten(@land, 4);
@@ -76,11 +83,11 @@
 @place_halo: fadeout(@land, 90);
 
 @country_text: @black;
-@country_text_high: @gray-4;
+@country_text_high: darken(@land, 40);
 @country_halo: fadeout(#fff, 90);
 
 @state_text:@gray-5;
-@state_halo: fadeout( @gray-2, 40);
+@state_halo: fadeout(@gray-1, 40);
 
 @city_text: @black;
 @city_text_high:@gray-4;
@@ -101,7 +108,7 @@
 @poi_halo: fadeout(#fff, 95);
 @peak_text: @gray-5;
 @peak_halo: park_halo;
-@park_text: darken(@park, 40);
+@park_text: darken(@green-desat, 40);
 @park_halo: fadeout(#fff, 70);
 @transport_text: @gray-5;
 @transport_halo: fadeout(#fff, 90);

@@ -13,8 +13,8 @@
    width="17"
    height="23"
    id="svg3844"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="us-interstate-duplex-5.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="us-interstate-duplex-5f.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,11 +28,11 @@
      inkscape:window-height="905"
      id="namedview5316"
      showgrid="true"
-     inkscape:zoom="11.313708"
-     inkscape:cx="14.114351"
-     inkscape:cy="11.652501"
-     inkscape:window-x="167"
-     inkscape:window-y="63"
+     inkscape:zoom="31.999999"
+     inkscape:cx="7.2404257"
+     inkscape:cy="16.652501"
+     inkscape:window-x="251"
+     inkscape:window-y="44"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3844"
      inkscape:snap-bbox="true"
@@ -64,15 +64,15 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <path
      inkscape:connector-curvature="0"
-     style="color:#000000;fill:#53536c;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#b2b2b2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
      id="path4616"
-     d="m 1.5,1 c -4,11.5 0.5,21 7,22 6.5,-1 11,-10.5 7,-22 -2,1 -5,1 -7,0 -2,1 -5,1 -7,0 z"
+     d="m 1.5,1 c -4,11.5 0.5,21 7,22 6.5,-1 11,-10.5 7,-22 -2,1.5 -5,1.5 -7,0 -2,1.5 -5,1.5 -7,0 z"
      sodipodi:nodetypes="ccccc" />
   <path
      inkscape:connector-curvature="0"
