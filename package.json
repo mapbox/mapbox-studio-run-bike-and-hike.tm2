@@ -1,6 +1,6 @@
 {
     "name": "mapbox-studio-run-bike-hike",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "description": "Style for Mapbox Studio",
     "main": "./package.json"
 }
