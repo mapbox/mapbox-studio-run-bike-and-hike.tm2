@@ -13,8 +13,8 @@
    width="21"
    height="17"
    id="svg3844"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="us-interstate-3.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="us-interstate-3f.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -24,15 +24,15 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1855"
-     inkscape:window-height="1056"
+     inkscape:window-width="1920"
+     inkscape:window-height="992"
      id="namedview5316"
      showgrid="true"
-     inkscape:zoom="22.627417"
-     inkscape:cx="6.5343292"
-     inkscape:cy="11.843561"
-     inkscape:window-x="65"
-     inkscape:window-y="24"
+     inkscape:zoom="32"
+     inkscape:cx="9.3406592"
+     inkscape:cy="12.727444"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg3844"
      inkscape:snap-bbox="false"
@@ -76,21 +76,21 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
   <path
      inkscape:connector-curvature="0"
-     style="color:#000000;fill:#CCCCCC;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#b2b2b2;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
      id="path4616-1"
-     d="m 1,1 c -3.5,12 6.5,15.5 9.5,16 3,-0.5 13,-4 9.5,-16 C 18,2 12.5,2 10.5,1 8.5000004,2 3,2 1,1 z"
+     d="m 1,1 c -3.5,12 6.5,15.5 9.5,16 3,-0.5 13,-4 9.5,-16 C 17,3.5 13.5,3.5 10.5,1 7.5,3.5 4,3.5 1,1 Z"
      sodipodi:nodetypes="ccccc" />
   <path
      inkscape:connector-curvature="0"
      style="fill:#ffffff;stroke:none"
      id="path4663-2"
-     d="m 1.5,4 c 4,-0.5 14,-0.5 18,0 1,5.5 -2.5,10 -9,12 C 4,14 0.5,9.5 1.5,4 z"
+     d="m 1.5,5 c 4,-0.5 14,-0.5 18,0 1,5.5 -2.5,9 -9,11 C 4,14 0.5,10.5 1.5,5 Z"
      sodipodi:nodetypes="cccc" />
   <rect
      style="opacity:0;color:#000000;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"

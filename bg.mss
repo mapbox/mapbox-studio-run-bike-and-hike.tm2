@@ -109,7 +109,7 @@ Map {
 }
 
 ////////////////////////////////////////////////
-// Landcover (will be part of terrain) //
+// Landcover //
 ////////////////////////////////////////////////
 #landcover {
   ::0[zoom<=12],
@@ -123,6 +123,8 @@ Map {
     [class="grass"] { polygon-fill: @grass; }
     [class="crop"] { polygon-fill: @crop; }
     [class="snow"] { polygon-fill: @snow; }
+    [zoom>=13] { polygon-opacity: 0.75; }
+    [zoom>=14] { polygon-opacity: 0.5; }
   }
  ::1[zoom>=13][zoom<=14] { image-filters: agg-stack-blur(1,1); }
  ::2[zoom=15] { image-filters: agg-stack-blur(4,4); }
@@ -209,7 +211,6 @@ Map {
     [class='scrub'] { polygon-fill: @scrub2; }
     [class='grass'] { polygon-fill: @grass2 }
     [class='wood'],[class='scrub'],[class='grass'] {
-      //polygon-opacity: 0.7;
       polygon-opacity: 0.1;
       [zoom=7] { polygon-opacity: 0.05; }
       [zoom=8] { polygon-opacity: 0.1; }
@@ -266,9 +267,11 @@ Map {
 #landuse {
   [class='sand'] {
     polygon-fill: @sand;
+    polygon-opacity: 0.85;
   }
   [class='school'] {
     polygon-fill: @school;
+    polygon-opacity: 0.5;
     line-color: @gray-3;
   }
   [class='cemetery'] {
@@ -277,8 +280,9 @@ Map {
   }
   [class='hospital'] {
     polygon-fill: @hospital;
+    polygon-opacity: 0.5;
     line-color: @gray-3;
-    //polygon-opacity: 0;
+    polygon-opacity: 0.1;
   }
   [class='parking'] {
     [zoom>=16] {
@@ -291,7 +295,8 @@ Map {
   }
   [class='industrial'] {
     polygon-fill: @industrial;
-    [zoom<=10] { polygon-opacity: 0.5; }
+    polygon-opacity: 0.5;
+    [zoom<=10] { polygon-opacity: 0.25; }
   }
   [class='glacier'] {
     polygon-fill: @glacier;
@@ -313,14 +318,14 @@ Map {
     polygon-fill: @land;
   }
   [class='wetland'] {
-    polygon-pattern-file:url(img/pattern/wetland-16.png);
-    [zoom>=14] { polygon-pattern-file:url(img/pattern/wetland-64.png); }
-    [zoom>=17] { polygon-pattern-file:url(img/pattern/wetland-256.png); }
+    polygon-pattern-file:url(img/pattern/wetland-16.svg);
+    [zoom>=14] { polygon-pattern-file:url(img/pattern/wetland-64.svg); }
+    [zoom>=17] { polygon-pattern-file:url(img/pattern/wetland-256.svg); }
     }
   [class='wetland_noveg'] {
-    polygon-pattern-file:url(img/pattern/wetland_noveg-16.png);
-    [zoom>=14] { polygon-pattern-file:url(img/pattern/wetland_noveg-64.png); }
-    [zoom>=17] { polygon-pattern-file:url(img/pattern/wetland_noveg-256.png); }
+    polygon-pattern-file:url(img/pattern/wetland_noveg-16.svg);
+    [zoom>=14] { polygon-pattern-file:url(img/pattern/wetland_noveg-64.svg); }
+    [zoom>=17] { polygon-pattern-file:url(img/pattern/wetland_noveg-256.svg); }
   }
 }
 
@@ -471,6 +476,6 @@ Map {
 
 // Cliff
 #barrier_line[zoom>=12][class='cliff'] {
-  line-pattern-file: url(img/pattern/cliff-md.png);
-  [zoom>=16] { line-pattern-file: url(img/pattern/cliff-lg.png); }
+  line-pattern-file: url(img/pattern/cliff-md.svg);
+  [zoom>=16] { line-pattern-file: url(img/pattern/cliff-lg.svg); }
 }

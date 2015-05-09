@@ -79,71 +79,6 @@
   }
 }
 
-/*
-// City dots – version with markers as text
-#place_label::citydots[type='city'][zoom>=4][zoom<=7][localrank<=1] {
- [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
- [ldir='NE'],[ldir='SE'],[ldir='SW'],[ldir='NW'] {
-  // explicitly defining all the `ldir` values wer'e going
-  // to use shaves a bit off the final project.xml size
- [ldir='E'] {
-      text-name: '∘ ' + [name_en];
-      text-horizontal-alignment: right; 
-      }
-    [ldir='W'] {
-      text-name: [name_en] + ' ∘';
-      text-horizontal-alignment: left; 
-      }
-    [ldir='S'] { 
-      text-name: '∘\n' + [name_en];
-      text-line-spacing: -10;
-      text-vertical-alignment: bottom;
-      } 
-     [ldir='N'] {
-      text-name: [name_en] + '\n∘';
-      text-line-spacing: -10;
-      text-vertical-alignment: top;
-      }
-    [ldir='SE'] {
-      text-name: '∘\n  ' + [name_en];
-      text-line-spacing: -15;
-      text-vertical-alignment: bottom;
-      text-horizontal-alignment: right;
-      text-align: left;
-      }
-    [ldir='SW'] {
-      text-name: '∘\n' + [name_en] + '  ';
-      text-line-spacing: -16;
-      text-vertical-alignment: bottom;
-      text-horizontal-alignment: left;
-      text-align: right;
-      }
-     [ldir='NE'] {
-      text-name: '  ' + [name_en] + '\n∘';
-      text-line-spacing: -16;
-      text-vertical-alignment: top;
-      text-horizontal-alignment: right;
-      text-align: left;
-      }
-    [ldir='NW'] {
-      text-name: [name_en] + '  \n∘';
-      text-line-spacing: -15;
-      text-vertical-alignment: top;
-      text-horizontal-alignment: left;
-      text-align: right;
-      }
-    text-name: @name;
-    text-size: 16;
-    text-face-name: @reg;
-    text-placement: point;
-    text-fill: @city_text;
-    text-halo-fill: @city_halo;
-    text-halo-radius: 2;
-    text-halo-rasterizer: fast;  
-    }
-}
-*/
-
 // City labels with dots for low zoom levels.
 // The separate attachment keeps the size of the XML down.
 #place_label::citydots[zoom>=4][zoom<=7][type='city'][localrank<=2] {
@@ -151,7 +86,7 @@
   // to use shaves a bit off the final project.xml size
   [ldir='N'],[ldir='S'],[ldir='E'],[ldir='W'],
   [ldir='NE'],[ldir='SE'],[ldir='SW'],[ldir='NW'] {
-    shield-file: url("img/icon/dot.svg");
+    shield-file: url("img/icon/dot-6.svg");
     shield-unlock-image: true;
     shield-name: @name;
     shield-face-name: @reg;
@@ -188,7 +123,7 @@
 }
 
 #place_label {
-  [type='city'][zoom>=8][zoom<=15][localrank=1] {
+  [type='city'][zoom>=8][zoom<=15][localrank<=2] {
     text-name: @name;
     text-face-name: @reg;
     text-fill: @city_text;
@@ -219,7 +154,7 @@
   }
 
 #place_label {  
-  [type='town'][zoom>=8][zoom<=17][localrank<=1] {
+  [type='town'][zoom>=8][zoom<=17][localrank<=2] {
     text-name: @name;
     text-face-name: @reg;
     text-fill: @town_text;
@@ -473,14 +408,14 @@
 #road_label::shield-pt[class='motorway'][zoom>=10][zoom<=10][localrank=1][reflen<=6],
 #road_label::shield-ln[zoom>=11][reflen<=6] {
   shield-name: "[ref].replace('·', '\n')";
-  shield-size: 9;
+  shield-size: 8;
   shield-line-spacing: -4;
   shield-file: url('img/shield/[shield]-[reflen].svg');
   shield-face-name: @bold;
   shield-fill: @road_text;
   [zoom>=14] {
     shield-transform: scale(1.25,1.25);
-    shield-size: 11;
+    shield-size: 10;
   }
 }
 #road_label::shield-pt[class='motorway'][zoom>=8][zoom<=10][localrank=1][reflen<=6],
@@ -513,7 +448,7 @@
   [class='street'][zoom>=16],
   [class='street_limited'][zoom>=16] {
     text-avoid-edges: true;
-    text-name: [name];
+    text-name: @name;
     text-character-spacing: 0.25;
     text-placement: line;
     text-face-name: @reg;
@@ -551,7 +486,7 @@
   [len>750][zoom>=16],
   [len>0][zoom>=17] {  
     text-avoid-edges: true;
-    text-name: [name];
+    text-name: @name;
     text-character-spacing: 0.25;
     text-placement: line;
     text-face-name: @reg;

@@ -39,7 +39,7 @@
 //@park: @green-desat;
 @park: @green;
 @park-opaque: @green-desat;
-@sand: mix(@yellow, @land, 15);
+@sand: saturate(mix(@yellow, @land, 15), 10);
 //@sand: @yellow;
 @snow: lighten(desaturate(@blue, 45), 35);
 
@@ -50,9 +50,9 @@
 //@wooded:            mix(@sand, desaturate(@park, 20), 50);
 @pitch:             @park;
 @sports:            @park;
-@hospital:          darken(@land,3);
-@school:            darken(@land,4);
-@industrial:        darken(@land, 5);
+@hospital:          darken(@land,6);
+@school:            darken(@land,8);
+@industrial:        darken(@land, 10);
 @aeroway:           lighten(@land,4);
 @glacier:           darken(saturate(@snow, 80), 20);
 @parking: lighten(@building, 1); // temp, need to change

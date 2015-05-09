@@ -13,8 +13,8 @@
    width="17"
    height="17"
    id="svg3844"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="us-interstate-2.svg">
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="us-interstate-business-1f.svg">
   <sodipodi:namedview
      pagecolor="#ffffff"
      bordercolor="#666666"
@@ -28,11 +28,11 @@
      inkscape:window-height="905"
      id="namedview5316"
      showgrid="true"
-     inkscape:zoom="22.627417"
-     inkscape:cx="10.240357"
+     inkscape:zoom="32"
+     inkscape:cx="-0.6990482"
      inkscape:cy="6.5354935"
-     inkscape:window-x="167"
-     inkscape:window-y="63"
+     inkscape:window-x="228"
+     inkscape:window-y="103"
      inkscape:window-maximized="0"
      inkscape:current-layer="svg3844"
      inkscape:snap-bbox="true"
@@ -40,7 +40,7 @@
      fit-margin-left="0"
      fit-margin-right="0"
      fit-margin-bottom="0"
-     showguides="true"
+     showguides="false"
      inkscape:guide-bbox="true">
     <inkscape:grid
        type="xygrid"
@@ -53,6 +53,10 @@
        spacingy="0.5px"
        originx="1px"
        originy="1px" />
+    <sodipodi:guide
+       position="-10.8125,16.34375"
+       orientation="-0.70710678,0.70710678"
+       id="guide4155" />
   </sodipodi:namedview>
   <defs
      id="defs3846" />
@@ -70,15 +74,15 @@
   </metadata>
   <path
      inkscape:connector-curvature="0"
-     style="color:#000000;fill:#ccddcc;fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
+     style="color:#000000;display:inline;overflow:visible;visibility:visible;fill:#ccddcc;fill-opacity:0.94117647;fill-rule:evenodd;stroke:none;stroke-width:1;marker:none;enable-background:accumulate"
      id="path4616"
-     d="m 1.5,1 c -5,12 5,15.5 7,16 2,-0.5 12,-4 7,-16 -2,1 -5,1 -7,0 -2,1 -5,1 -7,0 z"
+     d="m 1.5,1 c -5,12 5,15.5 7,16 2,-0.5 12,-4 7,-16 -2,2 -5,2 -7,0 -2,2 -5,2 -7,0 z"
      sodipodi:nodetypes="ccccc" />
   <path
      inkscape:connector-curvature="0"
      style="fill:#ffffff;stroke:none"
      id="path4663"
-     d="m 1.5,4 c 4,-0.5 10,-0.5 14,0 1.5,5.5 -1,10 -7,12 C 2.5,14 0,9.5 1.5,4 z"
+     d="M 1.5,4.5 C 5.5,4 11.5,4 15.5,4.5 17,10 14.5,14 8.5,16 2.5,14 0,10 1.5,4.5 Z"
      sodipodi:nodetypes="cccc" />
   <rect
      style="opacity:0;color:#000000;fill:#000000;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1;marker:none;visibility:visible;display:inline;overflow:visible;enable-background:accumulate"
