@@ -2,5 +2,9 @@
   "name": "@mapbox/mapbox-studio-run-bike-hike",
   "version": "2.2.2",
   "description": "Style for Mapbox Studio",
-  "main": "./package.json"
+  "main": "./package.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mapbox/mapbox-studio-run-bike-and-hike.tm2.git"
+  }
 }
